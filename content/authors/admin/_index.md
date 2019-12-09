@@ -16,8 +16,11 @@ education:
 email: ""
 interests:
 - Hydrology
+- Water Resource management
+- Sustainablility
+- Resilient cities
 - Modelling 
-- Water Resource managment
+
 name: Chinmay Deval
 organizations:
 - name: University of Idaho
@@ -42,5 +45,14 @@ user_groups:
 - Visitors
 ---
 
-Chinmay Deval is a PhD Candidate at the department of soil and water systems, University of Idaho. His research interests include ...BLAH BLAH....... At present he works at...BLAH BLAH...... .
+Chinmay Deval is a PhD Candidate at the Department of Soil and Water Systems at the University of Idaho, where his research focus is at the interface of water quality, forest management and modelling. His research interests include impacts of multiple stressors on water resources, ground and surface water linkages, and sustainable water management policy and practice.
+
+He was trained in one of the top Geo-science schools in Europe. He holds a MSc in Earth Sciences from Utrecht University, with a specialization in Water Science and Management. He was awarded the prestigious Utrecht Excellence Scholarship for the academic excellence. I also hold a MSc in Environmental Studies and Resource Management from TERI University, India.
+
+I have professional experience in wide range of water resource management projects encompassing the fields of hydrological modeling, remote sensing applications in watershed hydrology, industrial symbiosis,water quality and phytoremediation. Some of my skills include use of remote sensing, simulation models, spatial analysis, and use of python.
+
+If you have any interesting opportunities would like to collaborate with me please feel free to connect with me. 
+
+
+...BLAH BLAH....... At present he works at...BLAH BLAH...... .
 
