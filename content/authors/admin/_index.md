@@ -1,6 +1,6 @@
 ---
 authors:
-- admin
+- Chinmay Deval
 bio: My research interests include .
 education:
   courses:
@@ -16,7 +16,7 @@ education:
 email: ""
 interests:
 - Hydrology
-- Water Resources management
+- Water resources management
 - Resilient watersheds
 - Climate change adaptations
 - Data visualization and analytics
@@ -46,7 +46,7 @@ user_groups:
 - Visitors
 ---
 
-Hi! I'm a PhD candidate at the [Department of Soil and Water Systems](https://www.uidaho.edu/cals/soil-and-water-systems/) at the [University of Idaho](https://www.uidaho.edu/). I'm a part of [Dr. Erin Brooks'](https://www.uidaho.edu/cals/soil-and-water-systems/our-people/erin-brooks) research group and currently my research revolves at the interface of water quality, watershed management and hydrologic modelling. I am passionate about using simulaion models and data analytics to understand impacts of multiple stressors on water resources to inform sustainable water management policy and practice. 
+Hi! I'm a PhD candidate at the [Department of Soil and Water Systems](https://www.uidaho.edu/cals/soil-and-water-systems/) at the [University of Idaho](https://www.uidaho.edu/). I'm a part of [Dr. Erin Brooks'](https://www.uidaho.edu/cals/soil-and-water-systems/our-people/erin-brooks) research group and currently my research revolves at the interface of water quality, watershed management and hydrologic modelling. I am passionate about using simulaion models and data analytics to understand impacts of multiple stressors on water resources and inform sustainable water management policy and practice. 
 
 
 

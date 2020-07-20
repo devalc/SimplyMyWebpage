@@ -33,11 +33,6 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2020-07-19T17:57:34-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/</loc>
     <lastmod>2020-07-19T17:57:34-07:00</lastmod>
   </url>
@@ -118,6 +113,31 @@
   </url>
   
   <url>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2020-07-19T17:57:34-07:00</lastmod>
   </url>
@@ -153,28 +173,12 @@
   </url>
   
   <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+    <loc>/authors/admin/</loc>
+    <lastmod>2020-07-19T17:57:34-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+    <loc>/authors/%CF%83e%C2%B5u%CE%B8uo/</loc>
   </url>
   
   <url>

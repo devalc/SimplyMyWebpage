@@ -5,7 +5,7 @@ authors:
 - A. V. Mane
 - N. P. Joshi
 - G. D. Sartale
-date: "2015-09-01T00:00:00Z"
+date: "2012-06-01T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -33,6 +33,6 @@ url_source: ""
 url_video: ""
 ---
 
-{{% alert note %}}
+<!---{{% alert note %}}
 Click the *Cite* button above to import publication metadata into a BibTeX format.
-{{% /alert %}}
+{{% /alert %}} -->
