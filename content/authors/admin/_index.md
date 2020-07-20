@@ -4,28 +4,29 @@ authors:
 bio: My research interests include .
 education:
   courses:
-  - course: MS in Water Science and Management
-    institution: Utrecht University
+  - course: MSc in Water Science and Management
+    institution: Utrecht University 
     year: 2016
-  - course: MS in Environmental Studies and Resources Management
+  - course: MSc in Environmental Studies and Resources Management
     institution: TERI School of Advanced Studies
     year: 2014
-  - course: BSc in Environental Science
+  - course: BSc in Environmental Science
     institution: Fergusson College
     year: 2012
 email: ""
 interests:
 - Hydrology
-- Water Resource management
-- Sustainablility
-- Resilient cities
-- Modelling 
+- Water Resources management
+- Resilient watersheds
+- Climate change adaptations
+- Data visualization and analytics
+- Reproducible research 
 
 name: Chinmay Deval
 organizations:
 - name: University of Idaho
-  url: ""
-role: PhD Candidate
+  url: "https://www.uidaho.edu/"
+role: PhD Candidate | Passionate about all things water
 social:
 - icon: envelope
   icon_pack: fas
@@ -45,14 +46,8 @@ user_groups:
 - Visitors
 ---
 
-Chinmay Deval is a PhD Candidate at the Department of Soil and Water Systems at the University of Idaho, where his research focus is at the interface of water quality, forest management and modelling. His research interests include impacts of multiple stressors on water resources, ground and surface water linkages, and sustainable water management policy and practice.
-
-He was trained in one of the top Geo-science schools in Europe. He holds a MSc in Earth Sciences from Utrecht University, with a specialization in Water Science and Management. He was awarded the prestigious Utrecht Excellence Scholarship for the academic excellence. I also hold a MSc in Environmental Studies and Resource Management from TERI University, India.
-
-I have professional experience in wide range of water resource management projects encompassing the fields of hydrological modeling, remote sensing applications in watershed hydrology, industrial symbiosis,water quality and phytoremediation. Some of my skills include use of remote sensing, simulation models, spatial analysis, and use of python.
-
-If you have any interesting opportunities would like to collaborate with me please feel free to connect with me. 
+Hi! I'm a PhD candidate at the [Department of Soil and Water Systems](https://www.uidaho.edu/cals/soil-and-water-systems/) at the [University of Idaho](https://www.uidaho.edu/). I'm a part of [Dr. Erin Brooks'](https://www.uidaho.edu/cals/soil-and-water-systems/our-people/erin-brooks) research group and currently my research revolves at the interface of water quality, watershed management and hydrologic modelling. I am passionate about using simulaion models and data analytics to understand impacts of multiple stressors on water resources to inform sustainable water management policy and practice. 
 
 
-...BLAH BLAH....... At present he works at...BLAH BLAH...... .
 
+<!--- If you have any interesting opportunities would like to collaborate with me please feel free to connect with me. -->
