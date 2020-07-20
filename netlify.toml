@@ -1,6 +1,6 @@
 [build]
   command = "hugo --gc --minify -b $URL --themesDir ../../"
-  base    = "/"
+  base    = "about/"
   publish = "public/"
 
 [build.environment]
