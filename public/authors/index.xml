@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Chinmay Deval</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>/about/authors/</link>
+      <atom:link href="/about/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/about/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>/about/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>/about/authors/admin/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <guid>/about/authors/admin/</guid>
       <description>&lt;p&gt;Hi! I&#39;m a PhD candidate at the &lt;a href=&#34;https://www.uidaho.edu/cals/soil-and-water-systems/&#34;&gt;Department of Soil and Water Systems&lt;/a&gt; at the &lt;a href=&#34;https://www.uidaho.edu/&#34;&gt;University of Idaho&lt;/a&gt;. I&#39;m a part of &lt;a href=&#34;https://www.uidaho.edu/cals/soil-and-water-systems/our-people/erin-brooks&#34;&gt;Dr. Erin Brooks&amp;rsquo;&lt;/a&gt; research group and currently my research revolves at the interface of water quality, watershed management and hydrologic modelling. I am passionate about using simulaion models and data analytics to understand impacts of multiple stressors on water resources to inform sustainable water management policy and practice.&lt;/p&gt;
 &lt;!--- If you have any interesting opportunities would like to collaborate with me please feel free to connect with me. --&gt;
 </description>
@@ -24,25 +24,25 @@
     
     <item>
       <title>A. V. Mane</title>
-      <link>/authors/a.-v.-mane/</link>
+      <link>/about/authors/a.-v.-mane/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/authors/a.-v.-mane/</guid>
+      <guid>/about/authors/a.-v.-mane/</guid>
       <description></description>
     </item>
     
     <item>
       <title>G. D. Sartale</title>
-      <link>/authors/g.-d.-sartale/</link>
+      <link>/about/authors/g.-d.-sartale/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/authors/g.-d.-sartale/</guid>
+      <guid>/about/authors/g.-d.-sartale/</guid>
       <description></description>
     </item>
     
     <item>
       <title>N. P. Joshi</title>
-      <link>/authors/n.-p.-joshi/</link>
+      <link>/about/authors/n.-p.-joshi/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/authors/n.-p.-joshi/</guid>
+      <guid>/about/authors/n.-p.-joshi/</guid>
       <description></description>
     </item>
     
