@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Chinmay Deval</title>
-    <link>/about/tags/</link>
-      <atom:link href="/about/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/about/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/about/tags/</link>
+      <link>/tags/</link>
     </image>
     
     <item>
       <title>Deep Learning</title>
-      <link>/about/tags/deep-learning/</link>
+      <link>/tags/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/about/tags/deep-learning/</guid>
+      <guid>/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo</title>
-      <link>/about/tags/demo/</link>
+      <link>/tags/demo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/about/tags/demo/</guid>
+      <guid>/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>/about/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/about/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Source Themes</title>
-      <link>/about/tags/source-themes/</link>
+      <link>/tags/source-themes/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/about/tags/source-themes/</guid>
+      <guid>/tags/source-themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plot</title>
-      <link>/about/tags/plot/</link>
+      <link>/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/about/tags/plot/</guid>
+      <guid>/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/about/tags/r-markdown/</link>
+      <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/about/tags/r-markdown/</guid>
+      <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>/about/tags/regression/</link>
+      <link>/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/about/tags/regression/</guid>
+      <guid>/tags/regression/</guid>
       <description></description>
     </item>
     
