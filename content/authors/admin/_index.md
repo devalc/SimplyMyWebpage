@@ -40,6 +40,12 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/devalc
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/chinmaydeval/
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-9492-7602
 superuser: true
 user_groups:
 - Researchers

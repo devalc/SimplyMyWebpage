@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173244160-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173244160-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -335,7 +373,7 @@
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -365,6 +403,35 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
         </li>
 
         
@@ -480,6 +547,12 @@
         
         
       
+        
+        
+      
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -491,8 +564,16 @@
             <option value="*">Type</option>
             
             
+            <option value=".pubtype-1">
+              Conference paper
+            </option>
+            
             <option value=".pubtype-2">
               Journal article
+            </option>
+            
+            <option value=".pubtype-7">
+              Thesis
             </option>
             
           </select>
@@ -502,6 +583,14 @@
             <option value="*">Date</option>
             
             
+            
+            <option value=".year-2020">
+              2020
+            </option>
+            
+            <option value=".year-2016">
+              2016
+            </option>
             
             <option value=".year-2012">
               2012
@@ -513,6 +602,279 @@
       </div>
 
       <div id="container-publications">
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2020">
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Deval C</span>, <span >Brooks E. S.</span>, <span >Gravelle J. A.</span>, <span >Link T. E.</span>, <span >Dobre M</span>, <span >Elliot W. J.</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    December 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/mcew/">Long-term response in nutrient load from commercial forest management operations in a mountainous watershed (In prep.)</a>
+  </h3>
+
+  
+  <a href="/publication/mcew/" class="summary-link">
+    <div class="article-style">
+      <p>Increased wildfire, declining snowpack, and forest beetle outbreaks are raising the awareness and need for comprehensive forest management strategies that satisfy long term water quantity and water quality needs . Forest management activities can alter the soil nutrient pools and affect the timing and magnitude of stream water quantity and quality. We investigated the impact of contemporary forest management activities, including clear-cutting and thinning, on water yield and stream nitrogen and phosphorus dynamics in a quarter-century-long (1992-2016) paired and nested watershed study in the interior Pacific Northwest, US. Monthly water samples were collected and analyzed for total Kjeldhal nitrogen (TKN), total available nitrogen (TAN), nitrate + nitrite (NO3+NO2), total phosphorus (TP) and orthophosphate (OP) concentrations throughout the study period. Five years of calibration data, 4 years of post-road construction, 6 years of PH-I , and 9 years of PH-II data were analyzed using a before-after, control-impact paired series (BACIPS) study design. We found statistically significant increases in stream NO3+NO2 and OP loading from the paired and nested watersheds following timber harvest treatments. This increase in nutrient export was attributed to increases in both streamflow and concentrations following harvest. Streamflow increased the greatest following clear-cut practices (33.4% at W1 during PH-I) with strong responses in stream NO3+NO2 concentration (0.28 mg-N.L-1 and 0.33 mg-N.L-1 during PH-I and PH-II respectively at W1). Downstream cumulative watersheds displayed smaller relative increases in the stream NO3+NO2 and OP likely because of the instream dilution and nutrient assimilation effects. Interestingly, the undisturbed control watershed displayed similar increasing trends in concentration, streamflow, and export of NO3+NO2 and OP. This increase was, however, smaller in magnitude compared to the disturbed watersheds and is potentially driven by changing hydrologic responses from forests in rain-on-snow elevation bands. In summary, we found that the contemporary forest management activities altered the stream water quality by significantly increasing the stream NO3+NO2 and OP concentrations as well as loads from the paired and nested watershed.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2016">
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Deval C</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2016
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/utrechtthesis/">Integration of remote sensing data on precipitaion, evapotranspiration and lead area index into the distributed global hydrological model PCR-GLOBWB</a>
+  </h3>
+
+  
+  <a href="/publication/utrechtthesis/" class="summary-link">
+    <div class="article-style">
+      <p>Using the Indus, Ganges, Brahmaputra, Mahi, Narmada, Tapi and Godavari River basins as an example, the present study examines the extent to which the remote sensing hydrological information can help improve the hydrological modelling. The leaf area index (LAI) derived from satellite remote sensing was incorporated into the PCR-GLOBWB model to add an inter-annually dynamic vegetation cycle. Four different precipitation products (CRU TS 3.21, APHRODITE, corrected-APHRODITE, and CHIRPS) were used in the different simulations to assess which product helps in better simulation of the historical river discharge in the aforesaid basins. An ensemble evapotranspiration product based on six different remote sensing ET models, was combined with the model to correct for the bias. It was concluded that the remote sensing LAI and Upper Indus Ganges Brahmaputra (UIGB)-corrected-APHRODITE precipitation products have a significant impact on the model. The P-RSLAI-ET-cor-APHRO model run performed significantly better in simulating the temporal variability of the river discharge at daily and monthly scales across the most gauging stations, while the P-RSLAI-cor-APHRO run captures the inter-annual variability and magnitude of discharge fairly well. The model improvements indicate that the incorporation of remote sensing hydrological information into the hydrological model did not only provide greater model accuracy and better representation of historic river flow but can also, to an extent, assisted in representing the the model related uncertainties in the simulations.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/profile/Chinmay_Deval/publication/326019552_INTEGRATION_OF_REMOTE_SENSING_DATA_ON_PRECIPITATION_EVAPOTRANSPIRATION_LEAF_AREA_INDEX_INTO_THE_DISTRIBUTED_GLOBAL_HYDROLOGICAL_MODEL_PCR-GLOBWB/links/5b33cc69aca2720785ef6b83/INTEGRATION-OF-REMOTE-SENSING-DATA-ON-PRECIPITATION-EVAPOTRANSPIRATION-LEAF-AREA-INDEX-INTO-THE-DISTRIBUTED-GLOBAL-HYDROLOGICAL-MODEL-PCR-GLOBWB.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/utrechtthesis/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.13140/RG.2.2.20080.97280" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        </div>
+
         
 
         
@@ -552,7 +914,7 @@
     
 
   
-  <span ><a href="/authors/admin/">admin</a></span>, <span >A. V. Mane</span>, <span >N. P. Joshi</span>, <span >G. D. Sartale</span>
+  <span >Deval C</span>, <span >Mane A. V.</span>, <span >Joshi N. P.</span>, <span >Sartale G. D.</span>
   </div>
   
   

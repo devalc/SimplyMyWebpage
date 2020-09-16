@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173244160-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173244160-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -247,7 +285,7 @@
   <meta property="og:description" content="PhD Candidate | Passionate about all things water"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2013-07-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-12-15T13:40:00&#43;00:00">
   
 
   
@@ -335,7 +373,7 @@
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -364,7 +402,36 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
         </li>
 
         
@@ -478,10 +545,46 @@
     
     
     <div>
-      <h2><a href="/publication/conference-paper/" >An example conference paper</a></h2>
+      <h2><a href="/talk/agu20/" >Viz-WEPPcloud:- A web-based, interactive, hillslope scale BMP guiding tool for the Water Erosion Prediction Project (WEPP) model</a></h2>
       <div class="article-style">
         
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+          Hillslope or watershed scale process-based hydrology and water quality simulation models are commonly employed to investigate the potential effects of land management and climate scenarios on water quality. Because of their complexity, such models …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/talk/agu19/" >Retention and release of phosphorus in Forest-Meadow Systems of Lake Tahoe, California</a></h2>
+      <div class="article-style">
+        
+          Forests are important non-point sources for phosphorus (P) release to surface waters. Almost a century of fire suppression in lake Tahoe basin has resulted in excessive accumulation of forest litter layer containing large pool of phosphorus. Leachate …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/talk/sssa19/" >Phosphorus Retention and Release in Forest-Meadow Systems of Lake Tahoe, California</a></h2>
+      <div class="article-style">
+        
+          Forests are important non-point sources for phosphorus (P) release to surface waters. Fire suppression practices in lake Tahoe basin has resulted in excessive accumulation of forest litter layer containing large pool of phosphorus. Such forest floor …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/talk/agu18/" >Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed</a></h2>
+      <div class="article-style">
+        
+          Concerns pertaining to the commercial forest management and consequent nutrient losses exist. Forest management activities can potentially alter the soil nutrient stores and the stream water quality. We investigated the impact of contemporary forest …
         
       </div>
     </div>

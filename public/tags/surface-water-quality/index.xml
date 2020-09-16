@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surface water quality | Chinmay Deval</title>
+    <link>/tags/surface-water-quality/</link>
+      <atom:link href="/tags/surface-water-quality/index.xml" rel="self" type="application/rss+xml" />
+    <description>Surface water quality</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Surface water quality</title>
+      <link>/tags/surface-water-quality/</link>
+    </image>
+    
+    <item>
+      <title>Long-term response in nutrient load from commercial forest management operations in a mountainous watershed (In prep.)</title>
+      <link>/publication/mcew/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/mcew/</guid>
+      <description>&lt;!---&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into a BibTeX format.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Viz-WEPPcloud:- A web-based, interactive, hillslope scale BMP guiding tool for the Water Erosion Prediction Project (WEPP) model</title>
+      <link>/talk/agu20/</link>
+      <pubDate>Tue, 15 Dec 2020 13:40:00 +0000</pubDate>
+      <guid>/talk/agu20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retention and release of phosphorus in Forest-Meadow Systems of Lake Tahoe, California</title>
+      <link>/talk/agu19/</link>
+      <pubDate>Wed, 11 Dec 2019 13:40:00 +0000</pubDate>
+      <guid>/talk/agu19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phosphorus Retention and Release in Forest-Meadow Systems of Lake Tahoe, California</title>
+      <link>/talk/sssa19/</link>
+      <pubDate>Mon, 11 Nov 2019 16:00:00 +0000</pubDate>
+      <guid>/talk/sssa19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed</title>
+      <link>/talk/agu18/</link>
+      <pubDate>Fri, 14 Dec 2018 10:20:00 +0000</pubDate>
+      <guid>/talk/agu18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

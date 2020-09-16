@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fate and Transport | Chinmay Deval</title>
+    <link>/tags/fate-and-transport/</link>
+      <atom:link href="/tags/fate-and-transport/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fate and Transport</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 11 Dec 2019 13:40:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Fate and Transport</title>
+      <link>/tags/fate-and-transport/</link>
+    </image>
+    
+    <item>
+      <title>Retention and release of phosphorus in Forest-Meadow Systems of Lake Tahoe, California</title>
+      <link>/talk/agu19/</link>
+      <pubDate>Wed, 11 Dec 2019 13:40:00 +0000</pubDate>
+      <guid>/talk/agu19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phosphorus Retention and Release in Forest-Meadow Systems of Lake Tahoe, California</title>
+      <link>/talk/sssa19/</link>
+      <pubDate>Mon, 11 Nov 2019 16:00:00 +0000</pubDate>
+      <guid>/talk/sssa19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

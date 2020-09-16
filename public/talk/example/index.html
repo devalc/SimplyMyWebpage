@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="An example talk using Academic&#39;s Markdown slides feature.">
+  <meta name="description" content="Concerns pertaining to the commercial forest management and consequent nutrient losses exist. Forest management activities can potentially alter the soil nutrient stores and the stream water quality. We investigated the impact of contemporary forest management activities on the stream nitrogen and phosphorus dynamics in a two-and-a-half decade-long (1992-2016) paired and nested watershed study in the Pacific Northwest. Monthly grab water samples were collected and analyzed for total Kjeldhal nitrogen (TKN), total available nitrogen (TAN), Nitrate &#43; Nitrite (NO3&#43;NO2), total phosphorus (TP) and Orthophosphate (OP) concentrations throughout the study period. Five years of calibration data, 4 years of post-road construction, 6 years of post-harvest and 9 years of post-harvest data (phase-II) were analyzed using the Before-After-Control-Impact-Paired (BACIP) design. We found statistically significant (α &lt;0.05) increase in NO3&#43;NO2 and OP concentrations following timber harvest. Downstream cumulative watersheds displayed relatively smaller increase in the stream NO3&#43;NO2 and OP concentrations likely due to the dilution and attenuation effects. NO3&#43;NO2 and OP exports also increased from all watersheds following the treatments. More interestingly the undisturbed watershed displayed similar increasing trends in concentrations and export of NO3&#43;NO2 and OP. This increase was, however, smaller in magnitude compared to the disturbed watersheds. In summary, we found that the contemporary forest management activities altered the stream water quality by significantly increasing the stream NO3&#43;NO2 and OP concentrations as well as export from the paired and nested watershed.">
 
   
   <link rel="alternate" hreflang="en-us" href="/talk/example/">
@@ -212,6 +212,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173244160-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173244160-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -234,21 +272,22 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="twitter:site" content="@chinmay_deval">
   <meta property="twitter:creator" content="@chinmay_deval">
   
   <meta property="og:site_name" content="Chinmay Deval">
   <meta property="og:url" content="/talk/example/">
-  <meta property="og:title" content="Example Talk | Chinmay Deval">
-  <meta property="og:description" content="An example talk using Academic&#39;s Markdown slides feature."><meta property="og:image" content="/talk/example/featured.jpg">
-  <meta property="twitter:image" content="/talk/example/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed | Chinmay Deval">
+  <meta property="og:description" content="Concerns pertaining to the commercial forest management and consequent nutrient losses exist. Forest management activities can potentially alter the soil nutrient stores and the stream water quality. We investigated the impact of contemporary forest management activities on the stream nitrogen and phosphorus dynamics in a two-and-a-half decade-long (1992-2016) paired and nested watershed study in the Pacific Northwest. Monthly grab water samples were collected and analyzed for total Kjeldhal nitrogen (TKN), total available nitrogen (TAN), Nitrate &#43; Nitrite (NO3&#43;NO2), total phosphorus (TP) and Orthophosphate (OP) concentrations throughout the study period. Five years of calibration data, 4 years of post-road construction, 6 years of post-harvest and 9 years of post-harvest data (phase-II) were analyzed using the Before-After-Control-Impact-Paired (BACIP) design. We found statistically significant (α &lt;0.05) increase in NO3&#43;NO2 and OP concentrations following timber harvest. Downstream cumulative watersheds displayed relatively smaller increase in the stream NO3&#43;NO2 and OP concentrations likely due to the dilution and attenuation effects. NO3&#43;NO2 and OP exports also increased from all watersheds following the treatments. More interestingly the undisturbed watershed displayed similar increasing trends in concentrations and export of NO3&#43;NO2 and OP. This increase was, however, smaller in magnitude compared to the disturbed watersheds. In summary, we found that the contemporary forest management activities altered the stream water quality by significantly increasing the stream NO3&#43;NO2 and OP concentrations as well as export from the paired and nested watershed."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2018-12-14T12:20:00&#43;00:00">
     
     <meta property="article:modified_time" content="2019-12-08T17:04:02-08:00">
   
@@ -271,33 +310,25 @@
     "@type": "WebPage",
     "@id": "/talk/example/"
   },
-  "name": "Example Talk",
+  "name": "Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed",
   
   "location": {
     "@type": "Place",
-    "name": "Source Themes HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
+    "name": "Washington D.C."
   },
   
   
-  "image": [
-    "/talk/example/featured.jpg"
-  ],
+  "startDate": "2018-12-14T10:20:00Z",
   
-  "startDate": "2030-06-01T13:00:00Z",
-  
-  "endDate": "2030-06-01T15:00:00Z",
+  "endDate": "2018-12-14T12:20:00Z",
   
   
-  "description": "An example talk using Academic's Markdown slides feature."
+  "performer": {
+    "@type": "Person",
+    "name": "Deval C"
+  },
+  
+  "description": "Concerns pertaining to the commercial forest management and consequent nutrient losses exist. Forest management activities can potentially alter the soil nutrient stores and the stream water quality. We investigated the impact of contemporary forest management activities on the stream nitrogen and phosphorus dynamics in a two-and-a-half decade-long (1992-2016) paired and nested watershed study in the Pacific Northwest. Monthly grab water samples were collected and analyzed for total Kjeldhal nitrogen (TKN), total available nitrogen (TAN), Nitrate + Nitrite (NO3+NO2), total phosphorus (TP) and Orthophosphate (OP) concentrations throughout the study period. Five years of calibration data, 4 years of post-road construction, 6 years of post-harvest and 9 years of post-harvest data (phase-II) were analyzed using the Before-After-Control-Impact-Paired (BACIP) design. We found statistically significant (α \u003c0.05) increase in NO3+NO2 and OP concentrations following timber harvest. Downstream cumulative watersheds displayed relatively smaller increase in the stream NO3+NO2 and OP concentrations likely due to the dilution and attenuation effects. NO3+NO2 and OP exports also increased from all watersheds following the treatments. More interestingly the undisturbed watershed displayed similar increasing trends in concentrations and export of NO3+NO2 and OP. This increase was, however, smaller in magnitude compared to the disturbed watersheds. In summary, we found that the contemporary forest management activities altered the stream water quality by significantly increasing the stream NO3+NO2 and OP concentrations as well as export from the paired and nested watershed."
 }
 </script>
 
@@ -313,7 +344,7 @@
 
 
 
-  <title>Example Talk | Chinmay Deval</title>
+  <title>Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed | Chinmay Deval</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -442,6 +473,35 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/#contact"><span>Contact</span></a>
         </li>
 
@@ -503,130 +563,66 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1>Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed</h1>
+
+  
+
   
     
-  
-
-
-<div class="article-container pt-3">
-  <h1>Example Talk</h1>
-
-  
-
-  
 
 
 <div class="article-metadata">
 
   
   
-
-  
-
-  
-
-  
-
   
   
-  
-
-  
-  
-
-</div>
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/internal-project/">
-    Project
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-  
-  
-  
+  <div>
     
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
-  </a>
 
-
-</div>
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
-  <div style="position: relative">
-    <img src="/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs"><strong>Unsplash</strong></a></span>
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span >Gravelle J</span>, <span >Link T. E</span>, <span >Dobre M.</span>
   </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
 
 
@@ -635,7 +631,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+      <p class="pub-abstract">Concerns pertaining to the commercial forest management and consequent nutrient losses exist. Forest management activities can potentially alter the soil nutrient stores and the stream water quality. We investigated the impact of contemporary forest management activities on the stream nitrogen and phosphorus dynamics in a two-and-a-half decade-long (1992-2016) paired and nested watershed study in the Pacific Northwest. Monthly grab water samples were collected and analyzed for total Kjeldhal nitrogen (TKN), total available nitrogen (TAN), Nitrate + Nitrite (NO3+NO2), total phosphorus (TP) and Orthophosphate (OP) concentrations throughout the study period. Five years of calibration data, 4 years of post-road construction, 6 years of post-harvest and 9 years of post-harvest data (phase-II) were analyzed using the Before-After-Control-Impact-Paired (BACIP) design. We found statistically significant (α &lt;0.05) increase in NO3+NO2 and OP concentrations following timber harvest. Downstream cumulative watersheds displayed relatively smaller increase in the stream NO3+NO2 and OP concentrations likely due to the dilution and attenuation effects. NO3+NO2 and OP exports also increased from all watersheds following the treatments. More interestingly the undisturbed watershed displayed similar increasing trends in concentrations and export of NO3+NO2 and OP. This increase was, however, smaller in magnitude compared to the disturbed watersheds. In summary, we found that the contemporary forest management activities altered the stream water quality by significantly increasing the stream NO3+NO2 and OP concentrations as well as export from the paired and nested watershed.</p>
     
 
     <div class="row">
@@ -644,7 +640,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &mdash; 3:00 PM
+            Dec 14, 2018 10:20 AM &mdash; 12:20 PM
           </div>
         </div>
       </div>
@@ -659,8 +655,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Academic Theme Conference
+            <a href="https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/370712" target="_blank" rel="noopener">
+            American Geophysical Union (AGU) Fall Meeting
             </a>
           </div>
         </div>
@@ -676,10 +672,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Source Themes HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
+          <div class="col-12 col-md-9">Washington D.C.</div>
           
         </div>
       </div>
@@ -691,21 +684,7 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <div class="alert alert-note">
-  <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
-  </div>
-</div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Academic&rsquo;s 
-<a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using 
-<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further talk details can easily be added to this page using <em>Markdown</em> and $\rm \LaTeX$ math code.</p>
-
+      
     </div>
 
     
@@ -714,6 +693,14 @@
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/water-quality/">Water Quality</a>
+  
+  <a class="badge badge-light" href="/tags/forest-management/">Forest Management</a>
+  
+</div>
 
 
 
@@ -728,7 +715,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/talk/example/&amp;text=Example%20Talk" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/talk/example/&amp;text=Multi-Decadal%20Response%20of%20Stream%20Water%20Quality%20to%20Commercial%20Forest%20Management%20Operations%20in%20a%20Mountainous%20Watershed" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -741,7 +728,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/talk/example/&amp;t=Example%20Talk" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/talk/example/&amp;t=Multi-Decadal%20Response%20of%20Stream%20Water%20Quality%20to%20Commercial%20Forest%20Management%20Operations%20in%20a%20Mountainous%20Watershed" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -754,7 +741,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=/talk/example/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Multi-Decadal%20Response%20of%20Stream%20Water%20Quality%20to%20Commercial%20Forest%20Management%20Operations%20in%20a%20Mountainous%20Watershed&amp;body=/talk/example/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -767,7 +754,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/talk/example/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/talk/example/&amp;title=Multi-Decadal%20Response%20of%20Stream%20Water%20Quality%20to%20Commercial%20Forest%20Management%20Operations%20in%20a%20Mountainous%20Watershed" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -780,7 +767,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Example%20Talk%20/talk/example/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Multi-Decadal%20Response%20of%20Stream%20Water%20Quality%20to%20Commercial%20Forest%20Management%20Operations%20in%20a%20Mountainous%20Watershed%20/talk/example/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -793,7 +780,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/talk/example/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/talk/example/&amp;title=Multi-Decadal%20Response%20of%20Stream%20Water%20Quality%20to%20Commercial%20Forest%20Management%20Operations%20in%20a%20Mountainous%20Watershed" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -813,105 +800,59 @@
 
 
   
-  
+    
+    
 
 
 
 
 
   
-    
-    
-    
-      
-    
-    
-    
-    <div class="media author-card content-widget-hr">
-      
-        
-        <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hua35f03e2dcfb8465c0f8c77d884238c4_110893_270x270_fill_q90_lanczos_center.jpg" alt="">
-      
 
-      <div class="media-body">
-        <h5 class="card-title"><a href="/"></a></h5>
-        <h6 class="card-subtitle">PhD Candidate | Passionate about all things water</h6>
-        <p class="card-text">My research interests include .</p>
-        <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/chinmay_deval" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=b984BwUAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/devalc" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-</ul>
 
-      </div>
-    </div>
+  
+    
+    
+
+
+
+
+
   
 
 
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+
+  
 
 
 

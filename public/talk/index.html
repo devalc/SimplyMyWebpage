@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173244160-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173244160-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -335,7 +373,7 @@
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -365,6 +403,35 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
         </li>
 
         
@@ -478,7 +545,7 @@
       
       <div class="row" id="talk_list">
         <div class="col-lg-2">
-          <h3>2030</h3>
+          <h3>2020</h3>
         </div>
         <div class="col-lg-10">
 
@@ -507,13 +574,13 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/talk/example/" >Example Talk</a>
+      <a href="/talk/agu20/" >Viz-WEPPcloud:- A web-based, interactive, hillslope scale BMP guiding tool for the Water Erosion Prediction Project (WEPP) model</a>
     </h3>
 
     
-    <a href="/talk/example/" class="summary-link">
+    <a href="/talk/agu20/" class="summary-link">
       <div class="article-style">
-        An example talk using Academic&rsquo;s Markdown slides feature.
+        Hillslope or watershed scale process-based hydrology and water quality simulation models are commonly employed to investigate the …
       </div>
     </a>
     
@@ -523,15 +590,22 @@
       
       <div>
         <span>
-          Jun 1, 2030 1:00 PM &mdash; 3:00 PM
+          Dec 15, 2020 &mdash;
         </span>
         
         <span class="middot-divider"></span>
-        <span>Source Themes HQ</span>
+        <span>San Fransisco</span>
         
       </div>
       
 
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span ><a href="/authors/dobre/">Dobre</a></span>, <span ><a href="/authors/m/">M</a></span>, <span ><a href="/authors/lew/">Lew</a></span>, <span ><a href="/authors/r/">R</a></span>
+      </div>
       
     </div>
 
@@ -556,40 +630,14 @@
 
 
 
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
-  </a>
+
+
+
 
 
     </div>
@@ -599,10 +647,339 @@
   <div class="ml-3">
     
     
+  </div>
+</div>
+
+            
+          
+
+        </div>
+      </div>
+      
+      <div class="row" id="talk_list">
+        <div class="col-lg-2">
+          <h3>2019</h3>
+        </div>
+        <div class="col-lg-10">
+
+          
+            
+              
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/agu19/" >Retention and release of phosphorus in Forest-Meadow Systems of Lake Tahoe, California</a>
+    </h3>
+
     
-    <a href="/talk/example/" >
-      <img src="/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q90_lanczos.jpg" alt="Example Talk">
+    <a href="/talk/agu19/" class="summary-link">
+      <div class="article-style">
+        Forests are important non-point sources for phosphorus (P) release to surface waters. Almost a century of fire suppression in lake …
+      </div>
     </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Dec 11, 2019 1:40 PM &mdash; 6:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>San Fransisco</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span ><a href="/authors/strawn/">Strawn</a></span>, <span >D. G</span>, <span ><a href="/authors/heron/">Heron</a></span>, <span ><a href="/authors/t/">T</a></span>, <span ><a href="/authors/dobre/">Dobre</a></span>, <span ><a href="/authors/m/">M</a></span>, <span ><a href="/authors/crump/">Crump</a></span>, <span ><a href="/authors/a/">A</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+            
+              
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/sssa19/" >Phosphorus Retention and Release in Forest-Meadow Systems of Lake Tahoe, California</a>
+    </h3>
+
+    
+    <a href="/talk/sssa19/" class="summary-link">
+      <div class="article-style">
+        Forests are important non-point sources for phosphorus (P) release to surface waters. Fire suppression practices in lake Tahoe basin …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Nov 11, 2019 4:00 PM &mdash; 6:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>San Antonio</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span ><a href="/authors/strawn/">Strawn</a></span>, <span >D. G</span>, <span ><a href="/authors/heron/">Heron</a></span>, <span ><a href="/authors/t/">T</a></span>, <span ><a href="/authors/dobre/">Dobre</a></span>, <span ><a href="/authors/m/">M</a></span>, <span ><a href="/authors/crump/">Crump</a></span>, <span ><a href="/authors/a/">A</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://scisoc.confex.com/scisoc/2019am/mediafile/Handout/Paper122171/Deval_TriSocieties_2019_poster_.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+            
+          
+
+        </div>
+      </div>
+      
+      <div class="row" id="talk_list">
+        <div class="col-lg-2">
+          <h3>2018</h3>
+        </div>
+        <div class="col-lg-10">
+
+          
+            
+              
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/agu18/" >Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed</a>
+    </h3>
+
+    
+    <a href="/talk/agu18/" class="summary-link">
+      <div class="article-style">
+        Concerns pertaining to the commercial forest management and consequent nutrient losses exist. Forest management activities can …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Dec 14, 2018 10:20 AM &mdash; 12:20 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Washington D.C.</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span >Gravelle J</span>, <span >Link T. E</span>, <span >Dobre M.</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
     
   </div>
 </div>

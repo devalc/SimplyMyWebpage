@@ -18,23 +18,183 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-07-20T00:02:01-07:00</lastmod>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/example/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/before-after-control-impact-paired-bacip/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/deval-c/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/dobre-m./</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/mcew/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/nitrogen/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/nutrient-export/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/phosphorus/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/surface-water-quality/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/timber-harvest/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/water-quality/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bmp/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/brooks-e.-s./</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/dobre/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/forest-management/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/lew/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/m/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/r/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/targeted-management/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/agu20/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/wepp/</loc>
+    <lastmod>2020-12-15T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/a/</loc>
+    <lastmod>2019-12-11T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/crump/</loc>
+    <lastmod>2019-12-11T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/d.-g/</loc>
+    <lastmod>2019-12-11T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fate-and-transport/</loc>
+    <lastmod>2019-12-11T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/heron/</loc>
+    <lastmod>2019-12-11T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/agu19/</loc>
+    <lastmod>2019-12-11T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/strawn/</loc>
+    <lastmod>2019-12-11T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/t/</loc>
+    <lastmod>2019-12-11T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/sssa19/</loc>
+    <lastmod>2019-11-11T16:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/writing-technical-content/</loc>
     <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-07-20T00:02:01-07:00</lastmod>
   </url>
   
   <url>
@@ -53,6 +213,26 @@
   </url>
   
   <url>
+    <loc>/authors/gravelle-j/</loc>
+    <lastmod>2018-12-14T10:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/link-t.-e./</loc>
+    <lastmod>2018-12-14T10:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/agu18/</loc>
+    <lastmod>2018-12-14T10:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/nutrients/</loc>
+    <lastmod>2018-12-14T10:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/privacy/</loc>
     <lastmod>2019-12-08T17:04:02-08:00</lastmod>
   </url>
@@ -60,6 +240,71 @@
   <url>
     <loc>/terms/</loc>
     <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/7/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/aphrodite/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/chirsp/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cru/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ensemble-evapotranspiration-product/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/evapotranspiration/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hydrologic-modelling/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hydrological-modelling/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/utrechtthesis/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/lai/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pcr-globwb/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/remote-sensing/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/water-balance/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,16 +333,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-07-20T00:02:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/academic/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/getting-started/</loc>
     <lastmod>2019-12-08T17:04:02-08:00</lastmod>
   </url>
@@ -118,57 +353,22 @@
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2019-12-08T17:04:02-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
+    <loc>/tags/bioaccumulation/</loc>
     <lastmod>2020-07-20T00:02:01-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/a.-v.-mane/</loc>
+    <loc>/tags/heavy-metals/</loc>
     <lastmod>2020-07-20T00:02:01-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/g.-d.-sartale/</loc>
-    <lastmod>2020-07-20T00:02:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/n.-p.-joshi/</loc>
+    <loc>/tags/phytoremediation/</loc>
     <lastmod>2020-07-20T00:02:01-07:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/journal-article/</loc>
-    <lastmod>2020-07-20T00:02:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-07-20T00:02:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/source-themes/</loc>
     <lastmod>2020-07-20T00:02:01-07:00</lastmod>
   </url>
   
@@ -187,6 +387,22 @@
   </url>
   
   <url>
+    <loc>/authors/elliot-w.-j./</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/gravelle-j.-a./</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/joshi-n.-p./</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/mane-a.-v./</loc>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2019-12-08T17:04:02-08:00</lastmod>
   </url>
@@ -199,6 +415,10 @@
   <url>
     <loc>/talk/</loc>
     <lastmod>2019-12-08T17:04:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sartale-g.-d./</loc>
   </url>
   
 </urlset>

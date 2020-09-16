@@ -5,7 +5,7 @@
     <link>/publication_types/1/</link>
       <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 15 Dec 2020 13:40:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,23 +13,35 @@
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Viz-WEPPcloud:- A web-based, interactive, hillslope scale BMP guiding tool for the Water Erosion Prediction Project (WEPP) model</title>
+      <link>/talk/agu20/</link>
+      <pubDate>Tue, 15 Dec 2020 13:40:00 +0000</pubDate>
+      <guid>/talk/agu20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retention and release of phosphorus in Forest-Meadow Systems of Lake Tahoe, California</title>
+      <link>/talk/agu19/</link>
+      <pubDate>Wed, 11 Dec 2019 13:40:00 +0000</pubDate>
+      <guid>/talk/agu19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phosphorus Retention and Release in Forest-Meadow Systems of Lake Tahoe, California</title>
+      <link>/talk/sssa19/</link>
+      <pubDate>Mon, 11 Nov 2019 16:00:00 +0000</pubDate>
+      <guid>/talk/sssa19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed</title>
+      <link>/talk/agu18/</link>
+      <pubDate>Fri, 14 Dec 2018 10:20:00 +0000</pubDate>
+      <guid>/talk/agu18/</guid>
+      <description></description>
     </item>
     
   </channel>

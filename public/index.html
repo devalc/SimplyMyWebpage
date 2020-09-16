@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173244160-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173244160-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -249,7 +287,7 @@
   <meta property="og:description" content="PhD Candidate | Passionate about all things water"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-12-31T00:00:00&#43;00:00">
   
 
   
@@ -351,7 +389,7 @@
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -381,6 +419,35 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
         </li>
 
         
@@ -622,6 +689,40 @@
           </a>
         </li>
         
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/chinmaydeval/" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://orcid.org/0000-0002-9492-7602" target="_blank" rel="noopener">
+            <i class="fab fa-orcid big-icon"></i>
+          </a>
+        </li>
+        
       </ul>
 
     </div>
@@ -695,6 +796,517 @@
       
 
     </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/agu20/" >Viz-WEPPcloud:- A web-based, interactive, hillslope scale BMP guiding tool for the Water Erosion Prediction Project (WEPP) model</a>
+    </h3>
+
+    
+    <a href="/talk/agu20/" class="summary-link">
+      <div class="article-style">
+        Hillslope or watershed scale process-based hydrology and water quality simulation models are commonly employed to investigate the …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Dec 15, 2020 &mdash;
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>San Fransisco</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span ><a href="/authors/dobre/">Dobre</a></span>, <span ><a href="/authors/m/">M</a></span>, <span ><a href="/authors/lew/">Lew</a></span>, <span ><a href="/authors/r/">R</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/agu19/" >Retention and release of phosphorus in Forest-Meadow Systems of Lake Tahoe, California</a>
+    </h3>
+
+    
+    <a href="/talk/agu19/" class="summary-link">
+      <div class="article-style">
+        Forests are important non-point sources for phosphorus (P) release to surface waters. Almost a century of fire suppression in lake …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Dec 11, 2019 1:40 PM &mdash; 6:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>San Fransisco</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span ><a href="/authors/strawn/">Strawn</a></span>, <span >D. G</span>, <span ><a href="/authors/heron/">Heron</a></span>, <span ><a href="/authors/t/">T</a></span>, <span ><a href="/authors/dobre/">Dobre</a></span>, <span ><a href="/authors/m/">M</a></span>, <span ><a href="/authors/crump/">Crump</a></span>, <span ><a href="/authors/a/">A</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/sssa19/" >Phosphorus Retention and Release in Forest-Meadow Systems of Lake Tahoe, California</a>
+    </h3>
+
+    
+    <a href="/talk/sssa19/" class="summary-link">
+      <div class="article-style">
+        Forests are important non-point sources for phosphorus (P) release to surface waters. Fire suppression practices in lake Tahoe basin …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Nov 11, 2019 4:00 PM &mdash; 6:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>San Antonio</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span ><a href="/authors/strawn/">Strawn</a></span>, <span >D. G</span>, <span ><a href="/authors/heron/">Heron</a></span>, <span ><a href="/authors/t/">T</a></span>, <span ><a href="/authors/dobre/">Dobre</a></span>, <span ><a href="/authors/m/">M</a></span>, <span ><a href="/authors/crump/">Crump</a></span>, <span ><a href="/authors/a/">A</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://scisoc.confex.com/scisoc/2019am/mediafile/Handout/Paper122171/Deval_TriSocieties_2019_poster_.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/agu18/" >Multi-Decadal Response of Stream Water Quality to Commercial Forest Management Operations in a Mountainous Watershed</a>
+    </h3>
+
+    
+    <a href="/talk/agu18/" class="summary-link">
+      <div class="article-style">
+        Concerns pertaining to the commercial forest management and consequent nutrient losses exist. Forest management activities can …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Dec 14, 2018 10:20 AM &mdash; 12:20 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Washington D.C.</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S</span>, <span >Gravelle J</span>, <span >Link T. E</span>, <span >Dobre M.</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
   </div>
 </div>
 
@@ -819,6 +1431,205 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/mcew/" >Long-term response in nutrient load from commercial forest management operations in a mountainous watershed (In prep.)</a>
+    </h3>
+
+    
+    <a href="/publication/mcew/" class="summary-link">
+      <div class="article-style">
+        Increased wildfire, declining snowpack, and forest beetle outbreaks are raising the awareness and need for comprehensive forest …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>, <span >Brooks E. S.</span>, <span >Gravelle J. A.</span>, <span >Link T. E.</span>, <span >Dobre M</span>, <span >Elliot W. J.</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/utrechtthesis/" >Integration of remote sensing data on precipitaion, evapotranspiration and lead area index into the distributed global hydrological model PCR-GLOBWB</a>
+    </h3>
+
+    
+    <a href="/publication/utrechtthesis/" class="summary-link">
+      <div class="article-style">
+        Using the Indus, Ganges, Brahmaputra, Mahi, Narmada, Tapi and Godavari River basins as an example, the present study examines the …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Deval C</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/profile/Chinmay_Deval/publication/326019552_INTEGRATION_OF_REMOTE_SENSING_DATA_ON_PRECIPITATION_EVAPOTRANSPIRATION_LEAF_AREA_INDEX_INTO_THE_DISTRIBUTED_GLOBAL_HYDROLOGICAL_MODEL_PCR-GLOBWB/links/5b33cc69aca2720785ef6b83/INTEGRATION-OF-REMOTE-SENSING-DATA-ON-PRECIPITATION-EVAPOTRANSPIRATION-LEAF-AREA-INDEX-INTO-THE-DISTRIBUTED-GLOBAL-HYDROLOGICAL-MODEL-PCR-GLOBWB.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/utrechtthesis/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.13140/RG.2.2.20080.97280" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
       <a href="/publication/journal-article/" >Phytoremediation potential of aquatic macrophyte Azolla caroliniana with references to zinc plating effluent</a>
     </h3>
 
@@ -839,7 +1650,7 @@
         
 
   
-  <span ><a href="/authors/admin/">admin</a></span>, <span >A. V. Mane</span>, <span >N. P. Joshi</span>, <span >G. D. Sartale</span>
+  <span >Deval C</span>, <span >Mane A. V.</span>, <span >Joshi N. P.</span>, <span >Sartale G. D.</span>
       </div>
       
     </div>
@@ -899,6 +1710,187 @@
       
     
 
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="tags" class="home-section wg-tag-cloud   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Popular Topics</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+      
+      
+      
+      
+      
+      
+
+      <div class="tag-cloud">
+        
+          
+          
+          
+          <a href="/tags/aphrodite/" style="font-size:0.7rem">APHRODITE</a>
+        
+          
+          
+          
+          <a href="/tags/before-after-control-impact-paired-bacip/" style="font-size:0.7rem">Before-After-Control-Impact-Paired (BACIP)</a>
+        
+          
+          
+          
+          <a href="/tags/bioaccumulation/" style="font-size:0.7rem">Bioaccumulation</a>
+        
+          
+          
+          
+          <a href="/tags/bmp/" style="font-size:0.7rem">BMP</a>
+        
+          
+          
+          
+          <a href="/tags/chirsp/" style="font-size:0.7rem">CHIRSP</a>
+        
+          
+          
+          
+          <a href="/tags/cru/" style="font-size:0.7rem">CRU</a>
+        
+          
+          
+          
+          <a href="/tags/deep-learning/" style="font-size:0.7rem">Deep Learning</a>
+        
+          
+          
+          
+          <a href="/tags/demo/" style="font-size:0.7rem">Demo</a>
+        
+          
+          
+          
+          <a href="/tags/ensemble-evapotranspiration-product/" style="font-size:0.7rem">Ensemble evapotranspiration product</a>
+        
+          
+          
+          
+          <a href="/tags/evapotranspiration/" style="font-size:0.7rem">Evapotranspiration</a>
+        
+          
+          
+          
+          <a href="/tags/fate-and-transport/" style="font-size:1.1630693432404289rem">Fate and Transport</a>
+        
+          
+          
+          
+          <a href="/tags/forest-management/" style="font-size:1.6261386864808576rem">Forest Management</a>
+        
+          
+          
+          
+          <a href="/tags/heavy-metals/" style="font-size:0.7rem">Heavy metals</a>
+        
+          
+          
+          
+          <a href="/tags/hydrologic-modelling/" style="font-size:0.7rem">Hydrologic Modelling</a>
+        
+          
+          
+          
+          <a href="/tags/hydrological-modelling/" style="font-size:0.7rem">Hydrological Modelling</a>
+        
+          
+          
+          
+          <a href="/tags/lai/" style="font-size:0.7rem">LAI</a>
+        
+          
+          
+          
+          <a href="/tags/nitrogen/" style="font-size:1.1630693432404289rem">Nitrogen</a>
+        
+          
+          
+          
+          <a href="/tags/phosphorus/" style="font-size:1.6261386864808576rem">Phosphorus</a>
+        
+          
+          
+          
+          <a href="/tags/surface-water-quality/" style="font-size:1.775213717950991rem">Surface water quality</a>
+        
+          
+          
+          
+          <a href="/tags/water-quality/" style="font-size:1.8970168875100824rem">Water Quality</a>
+        
+      </div>
     
 
   </div>
