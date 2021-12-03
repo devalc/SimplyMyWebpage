@@ -1,10 +1,10 @@
 baseURL = "https://chinmaydeval.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Hugo Apéro"
-author = "Alison Hill"
+title = "Chinmay Deval"
+author = "Chinmay Deval"
 copyright = "" # set to override the auto generated copyright using org info and now year
-googleAnalytics = ""
+googleAnalytics = "UA-173244160-1"
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
