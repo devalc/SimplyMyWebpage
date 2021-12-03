@@ -131,11 +131,7 @@ enableEmoji = true
     title = "A collection"
     url = "/collection/"
     weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
+  
     
   # Configure footer  
   [[menu.footer]]
