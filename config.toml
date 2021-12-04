@@ -28,8 +28,8 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
+  orgName = ""
+  orgLocal = ""
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
@@ -43,12 +43,12 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "chinmay_deval"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "sky"
+  theme = "poppy"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
