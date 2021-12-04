@@ -10,7 +10,7 @@ show_action_link: true
 show_social_links: true
 subtitle: This website is in the works.
 text_align_left: false
-title: Chinmay Deval
+title: **Chinmay Deval**
 type: home
 ---
 
