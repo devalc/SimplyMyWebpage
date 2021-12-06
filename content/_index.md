@@ -5,7 +5,7 @@ action_type: text
 description: This website is in the works.
 image_left: true
 images:
-- img/revoir.jpg
+- 
 show_action_link: true
 show_social_links: true
 subtitle: This website is in the works.
