@@ -3,7 +3,9 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, my name is Chinmay Deval.
+  Hello there!My name is Chinmay.
 ---
 
 <!-- this is a subheadline -->
+Thanks for stopping by!
+
