@@ -28,9 +28,9 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = ""
+  orgName = "Chinmay Deval"
   orgLocal = ""
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = "Water Resources | Data Driven Hydroinformatics | GIS | Remote Sensing | R-Shiny | Python | R"
   favicon = "/img/favicon.ico"
   logo = "/img/android-chrome-512x512.png"
   mainSections = ["blog", "project", "talk"]
@@ -93,6 +93,18 @@ enableEmoji = true
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/chinmay_deval"
+   [[params.social]]
+      icon      = "linkedin" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "www.linkedin.com/in/chinmaydeval"
+  [[params.social]]
+      icon      = "google-scholar" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=b984BwUAAAAJ&hl=en"
+  [[params.social]]
+      icon      = "researchgate" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://www.researchgate.net/profile/Chinmay-Deval"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
