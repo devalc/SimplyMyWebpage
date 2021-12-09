@@ -1,6 +1,6 @@
 ---
 ## Configure page content in wide column
-title: "Distilling data-driven insights through informative visualizations and analytical communications of large datasets" # leave blank to exclude
+title: "Distilling data-driven insights through informative visualizations and analytical communication to power data-enabled resilient ecosystems." # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude

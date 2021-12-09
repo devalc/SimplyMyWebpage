@@ -32,7 +32,7 @@ enableEmoji = true
   orgLocal = ""
   description = "Water Resources | Data Driven Hydroinformatics | GIS | Remote Sensing | R-Shiny | Python | R"
   favicon = "/img/favicon.ico"
-  logo = "/img/android-chrome-512x512.png"
+  logo = "/img/logo2-removebg.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "peach"
+  theme = "poppy"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -133,16 +133,21 @@ enableEmoji = true
 #    title = "Project Portfolio"
 #    url = "/project/"
 #    weight = 3
-#  [[menu.header]]
-#    name = "Talks"
-#    title = "Talks"
-#    url = "/talk/"
-#    weight = 4
+  [[menu.header]]
+    name = "Publications"
+    title = "Publications"
+    url = "/publications/"
+    weight = 4
+  [[menu.header]]
+    name = "Talks"
+    title = "Talks"
+    url = "/talk/"
+    weight = 5
 #  [[menu.header]]
 #    name = "A collection"
 #    title = "A collection"
 #    url = "/collection/"
-#    weight = 5
+#    weight = 6
   
     
   # Configure footer  
