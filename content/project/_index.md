@@ -1,6 +1,6 @@
 ---
 title: Projects
-author: Chinmay Deval
+author: 
 cascade:
   show_author_byline: true
   show_comments: false
