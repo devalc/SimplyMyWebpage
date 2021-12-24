@@ -5,7 +5,7 @@ categories:
 - Shiny
 date: "2021-12-15"
 draft: false
-excerpt: 
+excerpt: A post-processing, interactive visualization, and analysis tool to synthesize multi-scenario, multi-watershed outputs from process-based geospatial models WEPP and SWAT. 
 featured: true
 layout: single
 links:
