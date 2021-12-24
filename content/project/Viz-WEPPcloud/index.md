@@ -6,7 +6,7 @@ categories:
 date: "2021-11-15"
 draft: false
 excerpt: A Shiny Web app implementation to assist in targeted management using WEPPcloud simulated outputs. Synthesize multi-scenario, multi-watershed outputs from process-based geospatial model WEPP (WEPPcloud) using this post-processing, interactive visualization, and analysis tool. 
-featured: false
+featured: true
 layout: single
 links:
 - icon: door-open
