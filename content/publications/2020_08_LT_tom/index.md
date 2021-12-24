@@ -5,6 +5,7 @@ date: "2020-08-15"
 event: ''
 show_post_time: false
 excerpt: |
+  In the Lake Tahoe Basin in California and Nevada (USA), managing nutrient export from watersheds into streams and the lake is a significant challenge that needs to be addressed to improve water quality.Our findings show that ecosystem and parent material are important attributes that control P speciation and availability in the Lake Tahoe Basin, and that organic P compounds are a major component of the soil P and are available for leaching from the soils. <br><br>
   Authors: Thomas Heron, Daniel G. Strawn, Mariana Dobre, Barbara J. Cade-Menun, **Chinmay Deval**, Erin S. Brooks, Julia Piaskowski, Caley Gasch and Alex Crump, (2021). <br/>
   Journal: Frontiers in Forest and Global Change <br />
   DOI: [10.3389/ffgc.2020.604200](https://doi.org/10.3389/ffgc.2020.604200)

@@ -4,9 +4,11 @@ title: "Integration of remote sensing data on precipitaiton, evapotranspiration 
 date: "2016-08-15"
 event: ''
 show_post_time: false
+featured: true
 excerpt: |
-  Authors: **C. Deval**, (2016). <br/>
-  Institution: Utrecht University <br />
+  Using the Indus, Ganges, Brahmaputra, Mahi, Narmada, Tapi and Godavari River basins as an example, the present study examines the extent to which the remote sensing hydrological information can help improve the hydrological modelling.<br>
+  Authors: **C. Deval**, (2016). <br>
+  Institution: Utrecht University <br>
   DOI: [https://dspace.library.uu.nl/](https://dspace.library.uu.nl/handle/1874/338677)
 links:
 - icon: newspaper
@@ -19,7 +21,9 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-
+- Remote Sensing
+- Hydrology
+- Models
 ---
 
 # Abstract

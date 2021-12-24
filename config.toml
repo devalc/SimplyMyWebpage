@@ -30,10 +30,10 @@ enableEmoji = true
 [params]
   orgName = "Chinmay Deval"
   orgLocal = ""
-  description = "Water Resources | Data Driven Hydroinformatics | GIS | Remote Sensing | R-Shiny | Python | R"
+  description = "Water Resources | Sustainability | Data Driven Hydroinformatics | GIS | Remote Sensing | R-Shiny | Python | R"
   favicon = "/img/favicon.ico"
-  logo = "/img/logo2-removebg.png"
-  mainSections = ["blog", "project", "talk"]
+  logo = "/img/logo.png"
+  mainSections = ["blog", "project", "publications", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -41,14 +41,14 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/avatar.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "chinmay_deval"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
-  #         poppy / sky / violet / water 
-  theme = "poppy"
+  #         poppy / sky / violet / water /solarizedLight
+  theme = "solarizedLight"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -118,21 +118,21 @@ enableEmoji = true
 
 [menu]
   # Configure header 
-#  [[menu.header]]
-#    name = "About"
-#    title = "About Blogophonic"
-#    url = "/about/"
-#    weight = 1
+  [[menu.header]]
+    name = "About"
+    title = "About Chinmay Deval"
+    url = "/about/"
+    weight = 1
 #  [[menu.header]]
 #    name = "Blog"
 #    title = "Blog"
 #    url = "/blog/"
 #    weight = 2
-#  [[menu.header]]
-#    name = "Projects"
-#    title = "Project Portfolio"
-#    url = "/project/"
-#    weight = 3
+  [[menu.header]]
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/project/"
+    weight = 3
   [[menu.header]]
     name = "Publications"
     title = "Publications"

@@ -1,5 +1,5 @@
 ---
-title: Curious about my research?
+title: Publications
 description: |
  Here are some of my recent publications.
 author: "Chinmay Deval"

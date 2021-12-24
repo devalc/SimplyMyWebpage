@@ -4,7 +4,9 @@ title: "Long-term response in nutrient load from commercial forest management op
 date: "2021-08-15"
 event: ''
 show_post_time: false
+featured: true
 excerpt: |
+  An increased emphasis on fuel management strategies to mitigate wildfire risks is raising the awareness and need for comprehensive forest management strategies that satisfy long-term water quantity and water quality needs. We investigated the effect of contemporary forest management activities, including clear-cutting and thinning, on water yield and stream nitrogen and phosphorus dynamics in a quarter-century long (1992-2016) paired and nested watershed study in the interior Pacific Northwest, US. <br><br>
   Authors: **C. Deval**, E. S. Brooks, J. A. Gravelle, T. E. Link, M. Dobre, W. J. Elliot, (2021). <br/>
   Journal: Forest Ecology and Management <br />
   DOI: [10.1016/j.foreco.2021.119312](https://doi.org/10.1016/j.foreco.2021.119312)
@@ -19,6 +21,7 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
+- Forest Management
 
 ---
 

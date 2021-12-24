@@ -1,16 +1,17 @@
 
 // set your Dark colors here
-$siteBgColorDark: #202A32;
-  $sidebarBgColorDark: #1A3537;
+$siteBgColorDark: #1D1D2C;
+  $sidebarBgColorDark: #2b3736;
   $textColorDark: #D4C2C9;
   $sidebarTextColorDark: #361F27;
   
-  $headlineColorDark: #912F56;
-  $headingColorDark: #912F56;
+  $headlineColorDark: #ff3c38;
+  $headingColorDark: #ff3c38;
   
-  $bodyLinkColorDark: #5AC4BB;
-  $navLinkColorDark: #5AC4BB;
-  $sidebarLinkColorDark: #912F56;
+  $bodyLinkColorDark: #3eb489;
+  $navLinkColorDark: #3eb489;
+  $navBgColorDark: #3eb489;
+  $sidebarLinkColorDark: #441C36;
   
   $footerTextColorDark: #D4C2C9;
   
@@ -22,23 +23,27 @@ $siteBgColorDark: #202A32;
   
   
 
+
 // set your custom colors here
-$siteBgColorCustom: #EAF2EF;
-$sidebarBgColorCustom: #D4C2C9;
-$textColorCustom: #441C36;
-$sidebarTextColorCustom: #361F27;
+$siteBgColorCustom: #f6f0f0; 
+$sidebarBgColorCustom: #3a3335; 
+$textColorCustom: #3A0F01;
+$sidebarTextColorCustom: #220D07;
 
-$headlineColorCustom: #912F56;
-$headingColorCustom: #912F56;
+$headlineColorCustom: #ff3c38; 
+$headingColorCustom: #ff3c38; 
 
-$bodyLinkColorCustom: #002B36;
-$navLinkColorCustom: #002B36;
-$sidebarLinkColorCustom: #912F56;
+$bodyLinkColorCustom: #008069;
+$navLinkColorCustom: #008069;
+$sidebarLinkColorCustom: #741d06;
 
-$footerTextColorCustom: #002b36;
+$footerTextColorCustom: #747270;
 
-$buttonTextColorCustom: #EAF2EF;
-$buttonHoverTextColorCustom: #D4C2C9;
-$buttonBgColorCustom: #2AA198;
-$buttonHoverBgColorCustom: #EAF2EF;
-$borderColorCustom: #912F56;
+$buttonTextColorCustom: #FAF9F0;
+$buttonHoverTextColorCustom: #FAF9F0;
+$buttonBgColorCustom: #CE3D15;
+$buttonHoverBgColorCustom: #BC4524;
+$borderColorCustom: #FED0C3;
+
+
+
