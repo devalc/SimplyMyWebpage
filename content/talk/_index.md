@@ -1,5 +1,5 @@
 ---
-author: Chinmay Deval
+author: 
 cascade:
   author: Chinmay Deval
   show_author_byline: false
