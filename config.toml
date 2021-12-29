@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water /solarizedLight
-  theme = "solarizedLight"
+  theme = "poppy"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -96,7 +96,7 @@ enableEmoji = true
    [[params.social]]
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "www.linkedin.com/in/chinmaydeval"
+      url       = "https://www.linkedin.com/in/chinmaydeval/"
   [[params.social]]
       icon      = "google-scholar" # icon name without the 'fa-'
       icon_pack = "ai"
