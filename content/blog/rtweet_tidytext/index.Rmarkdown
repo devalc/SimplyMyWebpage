@@ -42,7 +42,6 @@ tweets <- search_tweets(q = "#omicron", n = 18000,
 
 
 ## `r emo::ji('broom')` Cleaning the data
-
 Let's peek into the raw tweet data
 
 ```{r}
@@ -91,7 +90,7 @@ tweets_clean %>%
 
 ## `r emo::ji('broom')` More cleaning
 
-Spot any issues? Looks like we need to clean up the data even more. We need to filter all the filler/'stop words' such as "in", "and", "a", "of", etc. Again, thanks to the inbuilt stop_words data included with the tidytext pacakge, we can remove all the filler words from the text. Let's test it out with our data.
+Spot any issues? Looks like we need to clean up the data even more. We need to filter all the 'stop words' such as "in", "and", "a", "of", etc. Again, thanks to the inbuilt stop_words data included with the tidytext pacakge, we can remove all the filler words from the text. Let's test it out with our data.
 
 Before filtering out the stop words our tweets_clean data contains `r nrow(tweets_clean)` observations.
 
@@ -116,7 +115,6 @@ tweets_clean %>%
       y = "Count",
       title = "Unique frequent words found in tweets")+ggthemes::theme_economist()
 ```
-
 
 
 ## `r emo::ji('map')` Mapping the tweets
