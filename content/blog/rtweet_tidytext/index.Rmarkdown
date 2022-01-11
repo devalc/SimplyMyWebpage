@@ -1,0 +1,161 @@
+---
+title: "Mining, processing, and visualizing Twitter data using rtweet, TidyText, and tidyverse"
+subtitle: ""
+excerpt: "Text mining in R"
+date: 2022-01-04
+author: "Chinmay Deval"
+draft: false
+images:
+series:
+tags:
+categories: 
+layout: single
+---
+
+
+## Data, Data, Everywhere
+
+We live in a day and age where data is being generated at a pace that is faster than ever! Much of this data is also unstructured, untidy, and now also dominated by text format. Lately, I have been exploring the utility of the tidytext package to process such messy natural language data and draw insights.
+
+In this short example, we will grab the Twitter data using the rtweet package, process it using tidytext and tidyverse, and visualize it using ggplot and leaflet.
+  
+
+## `r emo::ji('zoom')` Searching for Tweets
+
+First, let us load all the packages we will need. We will use the rtweet package to query the tweets, tidytext, and tidyverse to clean and mine the text data, and ggplot and leaflet for visualization. rtweet is an R client for accessing Twitter’s REST and stream APIs.
+
+```{r, warning=FALSE, message=FALSE}
+library(rtweet)
+library(tidytext)
+library(tidyverse)
+library(leaflet)
+library(ggthemes)
+```
+
+As an example, let’s scrape tweets that use the hashtag ‘#omicron’ in them. We can do this using the `search_tweet()` function from the rtweet package.
+
+```{r}
+tweets <- search_tweets(q = "#omicron", n = 18000,
+                                      lang = "en",
+                                      include_rts = FALSE)
+```
+
+
+## `r emo::ji('broom')` Cleaning the data
+
+Let's peek into the raw tweet data
+
+```{r}
+tail(tweets$text)
+```
+
+At the first glance, it is clear that there’s quite a bit of data cleaning required. For example, you may want to remove URLs from scraped tweets. You may even want to get rid of emoticons, punctuation, etc. while at it. As an example, let us remove the URLs from the tweets and look at the data.
+
+
+```{r}
+tweets<- tweets %>%
+  mutate(stripped_text = gsub("http.*","",text))
+
+tail(tweets$stripped_text)
+```
+
+Now that the URLs are gone, the text starts to look a bit cleaner. However, you might not want to do all the cleaning manually. Thankfully, the tidytext package comes with the unnest_tokens() function that will magically clean up all the text. It will convert the text to lowercase, get rid of punctuation marks, and add the unique tweet id for each occurrence of the unique word. Let’s use it over our URL-stripped text data.
+
+
+```{r}
+tweets_clean <- tweets %>%
+  dplyr::select(stripped_text) %>%
+  unnest_tokens(word, stripped_text)
+```
+
+
+## `r emo::ji('speak')` What is the chatter about?
+
+Let us grab and plot the 25 most frequent words from our data.
+
+```{r, message=FALSE}
+
+tweets_clean %>%
+  count(word, sort = TRUE) %>%
+  top_n(25) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(x = word, y = n)) +
+  geom_col() +
+  xlab(NULL) +
+  coord_flip() +
+      labs(x = "",
+      y = "Count",
+      title = "Unique frequent words found in tweets")+ggthemes::theme_economist()
+```
+
+
+## `r emo::ji('broom')` More cleaning
+
+Spot any issues? Looks like we need to clean up the data even more. We need to filter all the filler/'stop words' such as "in", "and", "a", "of", etc. Again, thanks to the inbuilt stop_words data included with the tidytext pacakge, we can remove all the filler words from the text. Let's test it out with our data.
+
+Before filtering out the stop words our tweets_clean data contains `r nrow(tweets_clean)` observations.
+
+```{r}
+tweets_clean <- tweets_clean %>%
+  anti_join(stop_words, by = "word")
+```
+
+After filtering out stop words our data has `r nrow(tweets_clean)` observations. Let us now recreate our previous plot with these clean data.
+
+
+```{r, message=FALSE}
+tweets_clean %>%
+  count(word, sort = TRUE) %>%
+  top_n(25) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(x = word, y = n)) +
+  geom_col() +
+  xlab(NULL) +
+  coord_flip() +
+      labs(x = "",
+      y = "Count",
+      title = "Unique frequent words found in tweets")+ggthemes::theme_economist()
+```
+
+
+
+## `r emo::ji('map')` Mapping the tweets
+
+Let us find out where these tweets come from. For that, we first need to add the latitude and longitude information for each tweet. This can be done using the `lat_lng()` function from the rtweet package.
+
+```{r}
+tweets_with_latlons <- rtweet::lat_lng(tweets)
+```
+
+```{r, message=FALSE}
+tweets_with_latlons %>%
+  count(place_full_name, sort = TRUE) %>%
+  mutate(location = reorder(place_full_name,n)) %>%
+  na.omit() %>%
+  top_n(20) %>%
+  ggplot(aes(x = location,y = n)) +
+  geom_col() +
+  coord_flip() +
+  labs(x = "",
+       y = "Count",
+       title = "Omicron Tweets - top 20 unique locations ")+ggthemes::theme_economist()
+```
+
+
+Let us create a spatial map of these tweets.
+
+```{r, message=FALSE,warning=FALSE}
+leaflet::leaflet() %>%
+  leaflet::addProviderTiles("OpenStreetMap.Mapnik") %>%
+  leaflet::addCircles(data = tweets_with_latlons, 
+             color = "blue")
+```
+
+Now, let us make this map interactive and display in the pop-up a set of hashtags that are being tweeted from each location. And there we go!
+
+```{r, message=FALSE, warning=FALSE}
+tweets_with_latlons %>% leaflet::leaflet() %>%
+  leaflet::addProviderTiles(leaflet::providers$OpenStreetMap.Mapnik) %>%
+  leaflet::addMarkers(popup = ~as.character(hashtags),
+                      label = ~as.character(hashtags))
+```
