@@ -2,7 +2,7 @@
 title: "Mining, processing, and visualizing Twitter data using rtweet, TidyText, and tidyverse"
 subtitle: ""
 excerpt: "Text mining in R"
-date: 2022-01-04
+date: 2022-01-10
 author: "Chinmay Deval"
 draft: false
 images:
@@ -58,7 +58,7 @@ tweets<- tweets %>%
 tail(tweets$stripped_text)
 ```
 
-Now that the URLs are gone, the text starts to look a bit cleaner. However, you might not want to do all the cleaning manually. Thankfully, the tidytext package comes with the unnest_tokens() function that will magically clean up all the text. It will convert the text to lowercase, get rid of punctuation marks, and add the unique tweet id for each occurrence of the unique word. Let’s use it over our URL-stripped text data.
+Now that the URLs are gone, the text starts to look a bit cleaner. However, you might not want to do all the cleaning manually. Thankfully, the tidytext package comes with the `unnest_tokens()` function that will magically clean up all the text. It will convert the text to lowercase, get rid of punctuation marks, and add the unique tweet id for each occurrence of the unique word. Let us use it over our URL-stripped text data.
 
 
 ```{r}
@@ -90,7 +90,7 @@ tweets_clean %>%
 
 ## `r emo::ji('broom')` More cleaning
 
-Spot any issues? Looks like we need to clean up the data even more. We need to filter all the 'stop words' such as "in", "and", "a", "of", etc. Again, thanks to the inbuilt stop_words data included with the tidytext pacakge, we can remove all the filler words from the text. Let's test it out with our data.
+Spot any issues? Looks like we need to clean up the data even more. We need to filter all the 'stop words' such as "in", "and", "a", "of", etc. Again, thanks to the inbuilt `stop_words` data included with the tidytext package, we can swiftly remove all the filler words from the text. Let's test it out with our data.
 
 Before filtering out the stop words our tweets_clean data contains `r nrow(tweets_clean)` observations.
 
@@ -99,7 +99,7 @@ tweets_clean <- tweets_clean %>%
   anti_join(stop_words, by = "word")
 ```
 
-After filtering out stop words our data has `r nrow(tweets_clean)` observations. Let us now recreate our previous plot with these clean data.
+After filtering out stop words our data has `r nrow(tweets_clean)` observations. We can potentially filter out the numbers/integers from the data. We will skip it for now. Let us now recreate our previous plot with these clean data.
 
 
 ```{r, message=FALSE}
