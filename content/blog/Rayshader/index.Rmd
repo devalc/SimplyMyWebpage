@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Is `#rstats`{=html} a part of your workflow? Do you love creating 2D/3D visuals? Have you always wanted to create amazing 3D visuals like this 👇? 
 
 <video width="700" height="550" controls autoplay>
-  <source src="pune.mp4" type="video/mp4">
+  <source src="pune.webm" type="video/webm">
 </video>
 
 <br/>
