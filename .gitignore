@@ -4,3 +4,8 @@
 .Ruserdata
 .hugo_build.lock
 .Rprofile
+*.log
+VideoDecodeStats/LOG
+VideoDecodeStats/LOG.old
+VideoDecodeStats/000003.log
+VideoDecodeStats/LOG
