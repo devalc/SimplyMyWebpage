@@ -8,4 +8,4 @@ headline: |
 
 <!-- this is a subheadline -->
 
-<font size="5"><span style="color:#FF3C38"><i class="fas fa-puzzle-piece pr2"></i> **My name is Chinmay and I deliver quick, accurate, and data-driven insights through informative visualizations and analytical communication of large datasets.** </span></font>
+<font size="5"><span style="color:#FF3C38"><i class="fas fa-puzzle-piece pr2"></i> **My name is Chinmay. I enjoy generating data-driven insights and applying technology to solve multi-disciplinary, 21<sup>st</sup>-century problems.** </span></font>
