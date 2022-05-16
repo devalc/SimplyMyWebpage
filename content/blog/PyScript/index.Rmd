@@ -1,5 +1,5 @@
 ---
-title: "PyScript- First look at running Python logic directy in the browser!"
+title: "PyScript- First look at running Python logic directly in the browser"
 subtitle: ""
 excerpt: "Now you can write and run Python directly in HTML/browser!👀"
 date: 2022-05-14
@@ -14,26 +14,26 @@ layout: single
 
 ### TL;DR
 
-- Run Python in browser using PyScript
-- Set up python environment using `<py-env>` HTML tag 
-- Write and run python logic using `<py-script>` HTML tag
-- Demo visualization page using Pandas, Panel and Bokeh.
-- Deploy the demo page using Github Pages
+- Run Python in a browser using PyScript
+- Set up Python environment using <py-env> HTML tag
+-	Write and run python logic using <py-script> HTML tag
+-	Demo visualization page using Pandas, Panel, and Bokeh
+- Deploy the demo page using Github Pages (<a href="https://devalc.github.io/PyScript_HelloWorld/">live page here</a>)
 
-#### PyScript: Now you can write and run Python  directly in HTML/browser! 👀
+#### PyScript: Now you can write and run Python directly in HTML/browser! 👀
 
 <img src="pyscript_featured.PNG" alt="PyScript-header" width="700" height="300">
 Image source: <a href="https://pyscript.net/">PyScript</a>
 
-At the PyCon US 2022, <a href="https://anaconda.cloud/">Anaconda’s</a> CEO Peter Wang revealed a very interesting project - <a href="https://pyscript.net/">PyScript</a>. An approach for writing and running Python code directly in HTML. With a combination of Python and standard HTML, users can now create Python based applications directly in browser. PyScript is still in alpha phase, but I thought of taking it for a spin!
+At the PyCon US 2022, <a href="https://anaconda.cloud/">Anaconda’s</a> CEO Peter Wang revealed a very interesting project - <a href="https://pyscript.net/">PyScript</a>. An approach for writing and running Python code directly in HTML. With a combination of Python and standard HTML, users can now create Python-based applications directly in a browser. While PyScript is still in alpha phase, I thought of taking it for a spin!
 
 #### Sneak peek at running Python from Browser/ HTML 
 
-In this short blog, I demonstrate how to run Python logic in the browser using PyScript. Here I use the <a href="https://www.kaggle.com/datasets/kkhandekar/total-wildfires-acres-affected-1983-2020">Total Wildfires & Acres Affected (1983 - 2020)</a> dataset available on <a href="https://www.kaggle.com">Kaggle</a> and show how it can be loaded to the PyScript environment. Basic data clean up in the Python logic is done using the Pandas library and data visualization is done using the Bokeh library. 
+In this blog, I demonstrate how to run Python logic in the browser using PyScript. Here I use the <a href="https://www.kaggle.com/datasets/kkhandekar/total-wildfires-acres-affected-1983-2020">Total Wildfires & Acres Affected (1983 - 2020)</a> dataset available on <a href="https://www.kaggle.com">Kaggle</a> and show how it can be loaded to the PyScript environment. Basic data clean up in the Python logic is done using the Pandas library and data visualization is done using the Bokeh library. The final demo HTML page is then deployed as a GitHub Page.
 
-#### Boiler-plate HTML code
+#### Boilerplate HTML code
 
-For this example, here's the boiler plate HTML code. Most of this is pretty standard. For styling, I have added links to Bootstrap and custom CSS files in the `<head>` tag. In the `<body>` tag, there is a `<div>` that holds some text and a nested `<div>` that will hold the four visuals generate by the Python logic. 
+Here's the boiler plate HTML code used in this example. Most of this is pretty standard. For styling, I have added links to Bootstrap and custom CSS files in the `<head>` tag. In the `<body>` tag, there is a `<div>` that holds some text and a nested `<div>` that will hold the four visuals generate by the Python logic. 
 
 <img src="carbon1.svg" alt="HTML_boiler_plate_code" width="900" height="700">
 
