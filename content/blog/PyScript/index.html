@@ -1,0 +1,59 @@
+---
+title: "PyScript- First look at running Python logic directy in the browser!"
+subtitle: ""
+excerpt: "Now you can write and run Python directly in HTML/browser!👀"
+date: 2022-05-14
+author: "Chinmay Deval"
+draft: false
+images:
+series:
+tags:
+categories: 
+layout: single
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="tldr" class="section level3">
+<h3>TL;DR</h3>
+<ul>
+<li>Run Python in browser using PyScript</li>
+<li>Set up python environment using <code>&lt;py-env&gt;</code> HTML tag</li>
+<li>Write and run python logic using <code>&lt;py-script&gt;</code> HTML tag</li>
+<li>Demo visualization page using Pandas, Panel and Bokeh.</li>
+<li>Deploy the demo page using Github Pages</li>
+</ul>
+<div id="pyscript-now-you-can-write-and-run-python-directly-in-htmlbrowser" class="section level4">
+<h4>PyScript: Now you can write and run Python directly in HTML/browser! 👀</h4>
+<p><img src="pyscript_featured.PNG" alt="PyScript-header" width="700" height="300">
+Image source: <a href="https://pyscript.net/">PyScript</a></p>
+<p>At the PyCon US 2022, <a href="https://anaconda.cloud/">Anaconda’s</a> CEO Peter Wang revealed a very interesting project - <a href="https://pyscript.net/">PyScript</a>. An approach for writing and running Python code directly in HTML. With a combination of Python and standard HTML, users can now create Python based applications directly in browser. PyScript is still in alpha phase, but I thought of taking it for a spin!</p>
+</div>
+<div id="sneak-peek-at-running-python-from-browser-html" class="section level4">
+<h4>Sneak peek at running Python from Browser/ HTML</h4>
+<p>In this short blog, I demonstrate how to run Python logic in the browser using PyScript. Here I use the <a href="https://www.kaggle.com/datasets/kkhandekar/total-wildfires-acres-affected-1983-2020">Total Wildfires &amp; Acres Affected (1983 - 2020)</a> dataset available on <a href="https://www.kaggle.com">Kaggle</a> and show how it can be loaded to the PyScript environment. Basic data clean up in the Python logic is done using the Pandas library and data visualization is done using the Bokeh library.</p>
+</div>
+<div id="boiler-plate-html-code" class="section level4">
+<h4>Boiler-plate HTML code</h4>
+<p>For this example, here’s the boiler plate HTML code. Most of this is pretty standard. For styling, I have added links to Bootstrap and custom CSS files in the <code>&lt;head&gt;</code> tag. In the <code>&lt;body&gt;</code> tag, there is a <code>&lt;div&gt;</code> that holds some text and a nested <code>&lt;div&gt;</code> that will hold the four visuals generate by the Python logic.</p>
+<p><img src="carbon1.svg" alt="HTML_boiler_plate_code" width="900" height="700"></p>
+</div>
+<div id="lets-get-to-the-fun-part---pyscript" class="section level4">
+<h4>Let’s get to the fun part - PyScript:</h4>
+<p>To use PyScript, first import the pyscript files to your html page by adding the following code to the <code>&lt;head&gt;</code> tag:</p>
+<p><img src="carbon2.svg" alt="import pyscript" width="900" height="300"></p>
+<p>Next in the <code>&lt;head&gt;</code> tag, specify the packages needed for your Python logic using the <code>&lt;py-env&gt;</code> tag. This <code>&lt;py-env&gt;</code> tag is where you can also specify the location to the data to be loaded using the <code>-paths:</code> tag (Notice the indentation and the <code>-</code> when specifying the location to the CSV file). In this case the CSV file is in the same location as the HTML file.</p>
+<p><img src="carbon3.svg" alt="import pyscript" width="900" height="400"></p>
+<p>Once that is done, we can start writing the Python logic inside the special HTML tag called <code>&lt;py-script&gt;</code> tag within the <code>&lt;body&gt;</code> tag. In this example, all the libraries needed are imported. Then using Pandas, the data is read in, cleaned and some calculations are performed. Then the data is visualized using the Bokeh library. To use Bokeh, following few lines need to be added to the <code>&lt;head&gt;</code> of the HTML:</p>
+<p><img src="carbon4.svg" alt="import pyscript" width="900" height="500"></p>
+<p>And there you have it! The demo page that visualizes the wildfire dataset by running the Python logic directly in the browser is ready. Here’s a screen-shot of what it looks like:</p>
+<p><img src="demo_screengrb.png" alt="import pyscript" width="900" height="500"></p>
+</div>
+<div id="deploying-it-with-github-pages" class="section level4">
+<h4>Deploying it with GitHub Pages</h4>
+<p>This page can be then hosted as a GitHub repository and deployed as a GitHub Page. To do this commit all the changes to a GitHub repository for the project. In this case, it’s called <a href="https://github.com/devalc/PyScript_HelloWorld">PyScript_HelloWorld</a> and all the code shown in this blog can be found <a href ="https://github.com/devalc/PyScript_HelloWorld/blob/main/index.html">here</a>.</p>
+<p>To deploy the demo html as a GitHub page, first make sure the file is named <code>index.html</code>. Then navigate to <code>settings</code> page of the repository and select <code>Pages</code> from the sidebar. Then select the branch you want to deploy and hit <code>save</code>. This will publish the site and provide the link of the deployed page (as shown in the picture below). In this case the page can be found <a href="https://devalc.github.io/PyScript_HelloWorld/">here</a>.</p>
+<p><img src="demo_github_pages.PNG" alt="import pyscript" width="900" height="300"></p>
+</div>
+</div>
