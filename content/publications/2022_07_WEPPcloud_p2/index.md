@@ -38,4 +38,3 @@ Suspended sediment and nutrients following forest management activities or wildf
 # Citation
 
 Dobre, M., Srivastava, A., Lew, R., **Deval, C.**, Brooks, E.S., Elliot, W.J., Robichaud, P.R., 2022. WEPPcloud: An online watershed-scale hydrologic modeling tool. Part II. Model performance assessment and applications to forest management and wildfires. J. Hydrol. 610, 127776. [10.1016/j.jhydrol.2022.127776](https://doi.org/10.1016/j.jhydrol.2022.127776)
-
