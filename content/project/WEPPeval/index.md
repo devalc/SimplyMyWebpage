@@ -10,6 +10,10 @@ excerpt: A Shiny application bundled into an R package aimed at quick and intera
 featured: true
 layout: single
 links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/devalc/weppeval
 subtitle: ""
 tags:
 - hugo-site
