@@ -9,3 +9,7 @@ VideoDecodeStats/LOG
 VideoDecodeStats/LOG.old
 VideoDecodeStats/000003.log
 VideoDecodeStats/LOG
+.DS_Store
+Thumbs.db
+/public/
+/resources/
