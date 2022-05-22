@@ -7,8 +7,11 @@ author: "Chinmay Deval"
 draft: false
 images:
 series:
+featured: true
 tags:
 categories: 
+  - Python
+  - PyScript
 layout: single
 ---
 
