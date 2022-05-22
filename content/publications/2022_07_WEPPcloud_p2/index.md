@@ -1,7 +1,7 @@
 ---
 title: "WEPPcloud: An online watershed-scale hydrologic modeling tool. Part II. Model performance assessment and applications to forest management and wildfires"
-
-date: "2022-07-01"
+categories:
+date: "2022-05-01"
 event: ''
 show_post_time: false
 featured: true
@@ -12,7 +12,7 @@ excerpt: |
   - was used to assess forest management impacts on water quality.
   - was applied to both gauged and ungauged watersheds.
   <br><br>
-  Authors: Mariana Dobre, Anurag Srivastava, RogerLew, Chinmay Deval, Erin S.Brooks, William J. Elliot, Peter R. Robichaud, (2022). <br/>
+  Authors: Mariana Dobre, Anurag Srivastava, Roger Lew, **Chinmay Deval**, Erin S.Brooks, William J. Elliot, Peter R. Robichaud, (2022). <br/>
   Journal: Journal of Hydrology <br />
   DOI: [10.1016/j.jhydrol.2022.127776](https://doi.org/10.1016/j.jhydrol.2022.127776)
 links:
@@ -25,8 +25,7 @@ author: "Chinmay Deval"
 draft: false
 # layout options: single, single-sidebar
 layout: single
-categories:
-- 
+
 
 ---
 
