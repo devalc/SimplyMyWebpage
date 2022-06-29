@@ -1,11 +1,17 @@
 baseURL = "https://chinmaydeval.netlify.app/"
+
+disqusShortname = "" # see params.utterances to use utterances instead of Disqus
+
+googleAnalytics = "G-ZXQVJ7CC6N"
+
 theme = "hugo-apero"
+
 languageCode = "en"
 title = "Chinmay Deval"
 author = "Chinmay Deval"
 copyright = "" # set to override the auto generated copyright using org info and now year
-googleAnalytics = "G-ZXQVJ7CC6N"
-disqusShortname = "" # see params.utterances to use utterances instead of Disqus
+
+
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
@@ -122,12 +128,12 @@ enableEmoji = true
     name = "About"
     title = "About Chinmay Deval"
     url = "/about/"
-    weight = 1
+    weight = 5
   [[menu.header]]
     name = "Blog"
     title = "Blog"
     url = "/blog/"
-    weight = 3
+    weight = 1
   [[menu.header]]
     name = "Projects"
     title = "Project Portfolio"
@@ -137,12 +143,12 @@ enableEmoji = true
     name = "Publications"
     title = "Publications"
     url = "/publications/"
-    weight = 4
+    weight = 3
   [[menu.header]]
     name = "Talks"
     title = "Talks"
     url = "/talk/"
-    weight = 5
+    weight = 4
 #  [[menu.header]]
 #    name = "A collection"
 #    title = "A collection"
