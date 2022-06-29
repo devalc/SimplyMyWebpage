@@ -1,0 +1,26 @@
+---
+title: "Processing NetCDF data with Python"
+subtitle: ""
+excerpt: "GRIB"
+date: 2022-10-25
+author: "Chinmay Deval"
+draft: true
+images:
+series:
+featured: true 
+tags:
+categories: 
+  - Python
+  - GRIB
+layout: single
+---
+
+```{py setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+## NetCDF Data
+
+
+

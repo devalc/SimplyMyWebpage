@@ -1,0 +1,36 @@
+---
+title: "Processing Gridded Binary (GRIB) data with Python"
+subtitle: ""
+excerpt: "GRIB"
+date: 2022-10-25
+author: "Chinmay Deval"
+draft: true
+images:
+series:
+featured: true 
+tags:
+categories: 
+  - Python
+  - GRIB
+layout: single
+---
+
+
+
+<div id="gridded-binary-grib-data" class="section level2">
+<h2>Gridded Binary (GRIB) Data</h2>
+<p>Gridded Binary (GRIB) is a common data format used in meteorology to store and disseminate both, historical and forecasted, weather information. In fact it is the format recommended by the World Meteorological Organization (WMO). One example of GRIB data that immediately comes to mind is the <a href="https://registry.opendata.aws/noaa-gfs-bdp-pds/">NOAA Global Forecast System (GFS) data</a> generated using the weather forecast model by the National Centers for Environmental Prediction (NCEP).</p>
+</div>
+<div id="how-to-download-and-read-grib-data" class="section level2">
+<h2>How to download and read GRIB data?</h2>
+<p>There are several sources and ways to download and read the GRIB data. One of the common source for the historical or near real time data from GFS is the S3 bucket on Amazon AWS, one of NOAA’s Big Data partner. Couple of of the common Python packages to download and work with this data, as far as I know, are <code>pygrib</code> and <code>Herbie</code>. In this post, I explore the functionality of <code>Herbie</code> to work with the GFS data.</p>
+<div id="installing-herbie" class="section level3">
+<h3>Installing Herbie</h3>
+<p>According to the <a href="https://blaylockbk.github.io/Herbie/_build/html/user_guide/install.html">package documentation</a>, <code>Herbie</code> requires <code>curl</code> and Python version 3.8+ and the following packages: <code>requests</code>, <code>pandas</code>, <code>xarray</code>, and <code>cfgrib</code>. Other optional packages include <code>matplotlib</code> and <code>cartopy</code>. I already have a Python 3.9.7 installed on my system. Let’s install the package into a dedicated conda environment using [this YAML file] provided on the package GitHub page. To do this we run the following commands in the conda terminal:</p>
+<pre class="r"><code># download YAML file
+curl -O https://github.com/blaylockbk/Herbie/raw/main/environment.yml
+
+# Create new environment using the specifications provided in the YAML file.
+conda env create -f environment.yml</code></pre>
+</div>
+</div>
