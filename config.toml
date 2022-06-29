@@ -2,7 +2,7 @@ baseURL = "https://chinmaydeval.netlify.app/"
 
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 
-googleAnalytics = "G-ZXQVJ7CC6N"
+googleAnalytics = "UA-173244160-1"
 
 theme = "hugo-apero"
 
