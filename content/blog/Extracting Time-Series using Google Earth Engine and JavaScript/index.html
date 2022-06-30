@@ -25,12 +25,12 @@ layout: single
 </li>
 <li>Create a Normalized Difference Vegetation Index (NDVI) from Sentinel data</li>
 <li>Extract and visualize time series in the Earth Engine code editor console</li>
-<li>Extract and export a much larger time series data to a CSV</li>
+<li>Extract and export a large time-series data to a CSV</li>
 </ul>
-<p>When working with geospatial data we are often interested in extracting time series for a set of locations. These, for instance, could be several points or polygons representing different locations. In this short blog, we will use JavaScript in Google Earth Engine’s code editor and extract time series over a set of polygons. In this blog we will use Sentinel-2 data to extract the Normalized Difference Vegetation Index (NDVI) a set of irrigated fields. Let’s begin by bringing our polygon data to the google earth engine.</p>
+<p>When working with geospatial data we are often interested in extracting time series for a set of locations. These, for instance, could be several points or polygons representing different locations. In this short blog, we will use JavaScript in Google Earth Engine’s code editor and extract time series over a set of polygons. We will use Sentinel-2 data to extract the Normalized Difference Vegetation Index (NDVI) for a set of irrigated fields. Let’s begin by bringing our polygon data to the google earth engine.</p>
 <div id="adding-polygon-shapefile-to-assets" class="section level3">
 <h3>Adding polygon shapefile to assets</h3>
-<p>To upload a shapefile as an asset on Google Earth Engine, navigate to <code>Assets</code> in the left sidebar, click <code>New</code>, and select <code>Shape files</code> in the drop down. A window to upload the shapefile will popup as shown in the screenshot below.</p>
+<p>To upload a shapefile as an asset on Google Earth Engine, navigate to <code>Assets</code> in the left sidebar, click <code>New</code>, and select <code>Shapefiles</code> in the drop-down. A window to upload the shapefile will pop up as shown in the screenshot below.</p>
 <p><img src="GEE_add_asset.PNG" alt="GEE adding asset popup window"></p>
 <p><code>Select</code> the file from your computer to be uploaded and click upload. In this case, the file is called <code>mgck_shp.zip</code>. You will be able to see the upload progress in the <code>Tasks</code> sidebar on the right (see screenshot below) and when the upload is complete the shapefile will appear under the <code>CLOUD ASSETS</code> on the left sidebar (highlighted in yellow in this case).</p>
 <p><img src="GEE_tasks_asset.PNG" alt="GEE asset upload progress"></p>
@@ -56,7 +56,7 @@ var geometry =ee.FeatureCollection("projects/ee-chinmaydeval91/assets/mgck_shp")
 Map.addLayer(geometry);
 Map.centerObject(geometry,14);
 </script>
-<p>This displays on the map the eight irrigated agriculture fields in the Magic Valley, Idaho.</p>
+<p>This displays on the map eight irrigated agriculture fields in the Magic Valley, Idaho.</p>
 <p><img src="GEE_feature_collection_map.PNG" alt="GEE import and plot feature collection"></p>
 </div>
 <div id="create-and-extract-sentinel-ndvi" class="section level3">
@@ -67,7 +67,7 @@ Map.centerObject(geometry,14);
 <p>Let’s start by importing the Sentinel-2 surface reflectance image collection by typing the following code:</p>
 <pre class="js"><code>// Import image collection of Sentinel-2 imagery, and
 // filter by start and end date, and
-// filter according to drawn boundary
+// filter by boundary extent
 
 var S2 = ee.ImageCollection(&#39;COPERNICUS/S2&#39;)
 .filterDate(&#39;2019-03-28&#39;, &#39;2021-12-31&#39;)
@@ -75,13 +75,13 @@ var S2 = ee.ImageCollection(&#39;COPERNICUS/S2&#39;)
 <script type="text/javascript">
 // Import image collection of Sentinel-2 imagery, and
 // filter by start and end date, and
-// filter according to drawn boundary
+// filter by boundary extent
 
 var S2 = ee.ImageCollection('COPERNICUS/S2')
 .filterDate('2019-03-28', '2021-12-31')
 .filterBounds(geometry);
 </script>
-<p>This imports the Sentinel-2 collections and filters it for the given date range as well as the bounds of the feature collection. Next we need to mask out the cloudy and snowy images.</p>
+<p>This imports the Sentinel-2 collections and filters them for the given date range as well as the bounds of the feature collection. Next, we need to mask out the cloudy and snowy images.</p>
 </div>
 <div id="mask-clouds-and-snow" class="section level4">
 <h4>Mask Clouds and Snow</h4>
@@ -124,7 +124,7 @@ function maskS2sr(image) {
 // mask clouds and snow across the image collection
 var S2 = S2.map(maskS2sr)
 </script>
-<p>Now we have the Sentinel-2 image collection that is cloud and snow free and is filtered for the given spatial and temporal bounds.We can even clip the image collection to these irrigated fields.</p>
+<p>Now we have the Sentinel-2 image collection that is cloud and snow-free and is filtered for the given spatial and temporal bounds. We can even clip the image collection to these irrigated fields.</p>
 </div>
 <div id="clip-to-irrigated-field-polygons" class="section level4">
 <h4>Clip to irrigated field polygons</h4>
@@ -150,7 +150,7 @@ var clippedS2 = S2.map(clipImgCollect);
 </div>
 <div id="calculate-ndvi" class="section level4">
 <h4>Calculate NDVI</h4>
-<p>Now, to the final step before visualization - calculating NDVI. This can be done using the <code>NDVI_from_S2</code> function below that perform the band math calculations. We can then <code>map</code>this function to the entire image collection:</p>
+<p>Now, to the final step before visualization - calculating NDVI. This can be done using the <code>NDVI_from_S2</code> function below that perform the band math calculations. We can then <code>map</code> this function to the entire image collection:</p>
 <pre class="js"><code>// Function to calculate and create NDVI
 var NDVI_from_S2 = function(img) {
 return img.addBands(img.normalizedDifference([&#39;B8&#39;, &#39;B4&#39;]));
@@ -174,7 +174,7 @@ var clippedS2 = clippedS2.map(NDVI_from_S2);
 </div>
 <div id="visualize-time-series" class="section level3">
 <h3>Visualize time-series</h3>
-<p>To create a time series plot use the <code>seriesByRegion</code> functionality and pass the statistics to be calculated to the <code>ee.Reducer</code> method that help aggregate data. In this case we will aggregate mean values of the data over the geometry using the <code>ee.Reducer.mean()</code> function.</p>
+<p>To create a time series plot use the <code>seriesByRegion</code> functionality and pass the statistic to be calculated to the <code>ee.Reducer</code> method that helps aggregate data. In this case, we will aggregate the mean values of the data over the geometry using the <code>ee.Reducer.mean()</code> function.</p>
 <pre class="js"><code>
 // Create a time series chart.
 var plotNDVI_TS = ui.Chart.image.seriesByRegion(
@@ -217,13 +217,13 @@ print(plotNDVI_TS)
 </script>
 <p>This will generate a graph of field mean NDVI time series for all the irrigated fields as shown below. This chart can be downloaded as is, or one can even download the data plotted in the chart as a table (CSV).</p>
 <p><img src="NDVI_ts.PNG" alt="NDVI time-series plot"></p>
-<p>However, the creation of <code>plotNDVI_TS</code> as shown above, will certainly fail if your query request exceeds 5000 elements. For example in this example, I just increased my image collection size by selecting a much older start date (2017-03-28) in <code>filterDate</code> function. When I executed <code>plotNDVI_TS</code> funciton, I got an error in your console that looks like this:</p>
+<p>However, the creation of <code>plotNDVI_TS</code> as shown above will certainly fail if your query request exceeds 5000 elements. For example in this example, I just increased my image collection size by selecting a much older start date (2017-03-28) in <code>filterDate</code> function. When I executed <code>plotNDVI_TS</code> function, I got an error in your console that looks like this:</p>
 <p><img src="error.PNG" alt="Error message when request exceeds 5000 elements" height ="400" width = "700"></p>
-<p>The data being queried is too large to be plotted in the console and needs to be exported from Google earth engine.</p>
+<p>The data being queried is too large to be plotted in the console and needs to be exported from the google earth engine.</p>
 </div>
 <div id="exporting-time-series-in-a-tabulated-format" class="section level3">
-<h3>Exporting time-series in a tabulated format</h3>
-<p>To be able to export large time-series, first select the NDVI band from the <code>clippedS2</code> image collection. Then map the <code>reduceRegions</code> function to this NDVI image collection to calculate mean NDVI value for each feature (irrigated field polygon) for all the images in the collection. We will also store the image date in the <code>date</code> property and format it as YYYY-MM-DD. This <code>dat</code> object will give us the polygon ID, Image date, and the mean NDVI for that polygon.</p>
+<h3>Exporting time series in a tabulated format</h3>
+<p>To be able to export large time series, first select the NDVI band from the <code>clippedS2</code> image collection. Then map the <code>reduceRegions</code> function to this NDVI image collection to calculate the mean NDVI value for each feature (irrigated field polygon) for all the images in the collection. We will also store the date of the image in the <code>date</code> property and format it as YYYY-MM-DD. This <code>dat</code> object will give us the polygon ID, Image date, and the mean NDVI for that polygon.</p>
 <pre class="js"><code>// Select ndvi band
 var clippedS2_ndvi = clippedS2.select([&#39;nd&#39;])
 
@@ -256,7 +256,7 @@ var dat = clippedS2_ndvi.map(function(image) {
     });
 }).flatten();
 </script>
-<p>Now to prepare the table for export, lets use the <code>format</code> function shown below and apply it to <code>dat</code> object to format it such that each row in the table contains a time series of mean NDVI value for each irrigated field polygon.The column headers for each of these values are the image dates for which the mean NDVI was calculated. The formatted table is stored in the <code>sentinelNDVI_Results</code> object.</p>
+<p>Now to prepare the table for export, use the <code>format</code> function shown below and apply it to <code>dat</code> object to format it such that each row in the table contains a time series of mean NDVI value for each irrigated field polygon. The column headers for each of these values are the image dates for which the mean NDVI was calculated. The formatted table is stored in the <code>sentinelNDVI_Results</code> object. This <code>format</code> function was adapted from the source <a href="https://stackoverflow.com/questions/47697793/export-large-time-series-in-google-earth-engine">linked here.</a></p>
 <pre class="js"><code>var format = function(table, rowId, colId) {
   var rows = table.distinct(rowId); 
   var joined = ee.Join.saveAll(&#39;matches&#39;).apply({
@@ -305,8 +305,8 @@ var format = function(table, rowId, colId) {
 // Apply format function to the dat object
 var sentinelNDVI_Results = format(dat, 'ID', 'date');
 </script>
-<p>The export of this formatted table to Google Drive is fairly straightforward. Just pass the <code>sentinelNDVI_Results</code> object to the <code>Export.table.toDrive</code> function. Other arguments that you need to specify include the <code>folder</code> on the drive where you want to export the file, <code>fileNamePrefix</code> - prefix to be used in file name and <code>fileFormat</code>:</p>
-<pre class="js"><code>// Export dataframe to Google Drive as a CSV
+<p>The export of this formatted table to Google Drive is fairly straightforward. Just pass the <code>sentinelNDVI_Results</code> object to the <code>Export.table.toDrive</code> function. Other arguments that you need to specify include the <code>folder</code> on the drive where you want to export the file, <code>fileNamePrefix</code> - prefix to be used in the file name, and <code>fileFormat</code>:</p>
+<pre class="js"><code>// Export data frame to Google Drive as a CSV
 Export.table.toDrive({
   collection: sentinelNDVI_Results,
   description: &#39;Sentinel_NDVI_TS&#39;,
@@ -315,7 +315,7 @@ Export.table.toDrive({
   fileFormat: &#39;CSV&#39;
 })</code></pre>
 <script type="text/javascript">
-// Export dataframe to Google Drive as a CSV
+// Export data frame to Google Drive as a CSV
 Export.table.toDrive({
   collection: sentinelNDVI_Results,
   description: 'Sentinel_NDVI_TS',
@@ -324,8 +324,8 @@ Export.table.toDrive({
   fileFormat: 'CSV'
 })
 </script>
-<p>Here’s a sneak peek at the exported time-series that I quickly plotted in excel for demonstration:</p>
+<p>Here’s a sneak peek into the exported time series that I quickly plotted in excel for demonstration:</p>
 <p><img src="long_ndvi_ts.PNG" alt="Exported NDVI ts visualized using excel"></p>
-<p>You can find the full code at <a href="https://code.earthengine.google.com/70290727293395d938b073362ef842a4">this link</a>.</p>
+<p>You can find the complete code used in this blog at <a href="https://code.earthengine.google.com/70290727293395d938b073362ef842a4">this GEE link</a>.</p>
 </div>
 </div>
