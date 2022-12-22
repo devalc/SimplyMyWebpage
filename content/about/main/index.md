@@ -7,7 +7,11 @@ number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
   <font size="5.5"><span style="color:#FF3C38">In a nutshell</span></font><br><br>
-  I retrieve and process large datasets and leverage my modeling and analytical skills to generate insights from complex geospatial and environmental datasets to inform sustainable strategies for addressing climate risks. 
+  I retrieve and process large datasets and leverage my modeling and analytical skills to generate insights from complex geospatial and environmental datasets to inform strategies for addressing climate risks.
+  <br><br>
+  <font size="5.5"><span style="color:#FF3C38">Currently</span></font>
+  <br><br>
+  I am a geospatial data analyst at FM Global, where I focus on natural hazards related geospatial data engineering and ETL tasks to provide comprehensive and practical solutions to business challenges. As a post-doctoral researcher at the [University of Idaho](https://www.uidaho.edu/) I develop automated reporting products and decision support tools for informing post-wildfire risks and management decisions.  
   <br><br>
   <font size="5.5"><span style="color:#FF3C38">Recently</span></font>
   <br><br>

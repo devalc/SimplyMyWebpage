@@ -16,6 +16,10 @@ layout: single
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r xaringanExtra-clipboard, echo=FALSE}
+xaringanExtra::use_clipboard()
+```
+
 ### Impressive 2D/3D plots, using just R? Wait, What?!
 
 Is `#rstats`{=html} a part of your workflow? Do you love creating 2D/3D visuals? Have you always wanted to create amazing 3D visuals like this 👇? 

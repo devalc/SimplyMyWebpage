@@ -1,8 +1,8 @@
 ---
 title: "Processing NetCDF data with Python"
 subtitle: ""
-excerpt: "GRIB"
-date: 2022-10-25
+excerpt: "NetCDF with Python"
+date: 2024-05-12T1:00:00-07:00
 author: "Chinmay Deval"
 draft: true
 images:
@@ -11,16 +11,24 @@ featured: true
 tags:
 categories: 
   - Python
-  - GRIB
+  - asyncio
 layout: single
 ---
 
-```{py setup, include=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-## NetCDF Data
+```{r xaringanExtra-clipboard, echo=FALSE}
+xaringanExtra::use_clipboard()
+```
+
+## ASDasd
+
+```{python}
+import numpy as np
+```
 
 
 

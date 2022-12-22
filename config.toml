@@ -36,7 +36,7 @@ enableEmoji = true
 [params]
   orgName = "Chinmay Deval"
   orgLocal = ""
-  description = "Water Resources | Sustainability | Data Driven Hydroinformatics | GIS | Remote Sensing | R-Shiny | Python | R"
+  description = "Water Resources | Geospatial Data | GIS | Remote Sensing| Data Driven Hydroinformatics | R-Shiny | Python | R"
   favicon = "/img/favicon.ico"
   logo = "/img/logo.png"
   mainSections = ["blog", "project", "publications", "talk"]
