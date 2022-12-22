@@ -3,7 +3,7 @@ baseURL = "https://chinmaydeval.com/"
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 
 
-googleAnalytics = "G-ZXQVJ7CC6N"
+googleAnalytics = "G-QVKZ38FJSP"
 
 theme = "hugo-apero"
 
