@@ -7,9 +7,9 @@ image_left: true
 images:
 show_action_link: true
 show_social_links: true
-subtitle: Water Resources | Sustainability | Data Driven Hydroinformatics | GIS | Remote Sensing | R-Shiny | Python | R
+subtitle: Geospatial Data | Water Resources | Sustainability | Data Driven Hydroinformatics | GIS | Remote Sensing | R-Shiny | Python | R
 text_align_left: false
 title: Chinmay Deval
-type: home
+type: /home
 ---
 
