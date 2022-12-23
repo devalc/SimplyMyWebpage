@@ -51,7 +51,8 @@ enableEmoji = true
   sharing_image = "/img/avatar.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "chinmay_deval"
-  
+  # Google googleAnalytics
+  googleAnalyticsID = "G-QVKZ38FJSP"
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water /solarizedLight
