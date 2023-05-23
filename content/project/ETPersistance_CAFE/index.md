@@ -18,7 +18,7 @@ links:
 subtitle: ""
 tags:
 - hugo-site
-title: ET-Persistance
+title: ET-Persistance (Prototype for CAFE sites)
 ---
 ***
 Many growers now have the ability to adopt variable rate management strategies to optimize crop performance and profitability within a specific field. But targeting those managements is challenging. Using historic satellite remote sensing evapotranspiration imagery this tool helps identify fields that could potentially benefit from variable rate management strategies. It provides pre-processed interactive maps that show the proportion of the field which either consistently under-performs or over-performs relative to the field average.
