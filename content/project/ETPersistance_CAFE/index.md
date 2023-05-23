@@ -1,11 +1,10 @@
 ---
 author: Chinmay Deval
 categories:
-- Geoserver
-- OpenLayers
-- JavaScript
+- Shiny
+- R
 
-date: "2023-05-16"
+date: "2021-11-16"
 draft: false
 excerpt: Using historic satellite remote sensing evapotranspiration imagery this tool helps identify fields that could potentially benefit from variable rate management strategies.
 featured: true
@@ -14,11 +13,8 @@ links:
 - icon: door-open
   icon_pack: fas
   name: application website
-  url: https://devalc.github.io/ETPersistence/
-- icon: github
-  icon_pack: fab
-  name: code
-  url: https://github.com/devalc/ETPersistence
+  url: https://cdeval.shinyapps.io/CAFE-ET-Persistence/
+
 subtitle: ""
 tags:
 - hugo-site
