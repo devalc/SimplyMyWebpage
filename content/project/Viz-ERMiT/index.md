@@ -31,4 +31,4 @@ A Shiny web application with interactive visualization for some specific variabl
 <br><br>
 UI is shown in the graphic below but do check out the application website for latest updates.
 <br><br>
-<img src=".gif">
+<img src="Viz_ERMIT_featured.PNG">

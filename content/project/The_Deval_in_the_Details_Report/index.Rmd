@@ -6,7 +6,7 @@ categories:
 
 date: "2023-05-23"
 draft: false
-excerpt: An approach to provide automated data analytics product to the WEPPcloud users in the form of a run report consisting of a detailed graphical output and tabulated summaries of the WEPPcloud watershed run results. This makes the information easily downloadable for reports, presentations or other information needs.
+excerpt: This is an automated data analytics tool designed to enhance the user experience for [WEPPcloud](https://wepp.cloud/weppcloud/) users. It generates comprehensive run reports that include detailed and interactive graphical outputs and tabulated summaries of the WEPPcloud watershed run results. These reports can be easily downloaded and utilized for various purposes such as reports, presentations, or any other information needs.
 featured: true
 layout: single
 links:
@@ -14,14 +14,34 @@ links:
   icon_pack: fab
   name: code
   url: https://github.com/devalc/WEPPcloudR
+- icon: file
+  icon_pack: fas
+  name: Demo Report
+  url: https://wepp.cloud/weppcloud/runs/lt_202012_18_Third_Creek_CurCond/cfg/report/deval_details/
 
 subtitle: ""
 tags:
 - hugo-site
 title: The Deval in the Details Report
 ---
-***
-An approach to provide automated data analytics product to the WEPPcloud users in the form of a run report consisting of a detailed graphical output and tabulated summaries of the WEPPcloud watershed run results. This makes the information easily downloadable for reports, presentations or other information needs.
+This is an automated data analytics tool designed to enhance the user experience for [WEPPcloud](https://wepp.cloud/weppcloud/) users. It generates comprehensive run reports that include detailed graphical outputs and tabulated summaries of the WEPPcloud watershed run results. These reports can be easily downloaded and utilized for various purposes such as reports, presentations, or any other information needs.
+
 <p align="center">
   <img src="weppcloudR_featured.gif">
 </p>
+
+## Features
+
+- **Automated Data Analytics**: WEPPcloudR automates the process of analyzing data from WEPPcloud watershed runs, saving you time and effort.
+- **Comprehensive Reports**: The generated reports provide detailed graphical outputs and tabulated summaries, giving you a clear understanding of the results.
+- **Easy Download**: Reports are easily downloadable, allowing you to use them for reports, presentations, or any other information needs.
+- **Enhanced User Experience**: WEPPcloudR aims to enhance the user experience of WEPPcloud by providing an intuitive and efficient data analytics solution.
+
+## Installation
+
+No installation is required for this project. It is directly linked with [WEPPcloud](https://wepp.cloud/weppcloud/) where users can find a link to view the automated data analytics product after their WEPPcloud run is completed. 
+
+## Usage
+
+Once the WEPPcloud run is completed, the generated report will be available to view and download.
+
