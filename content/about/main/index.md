@@ -6,19 +6,12 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  <font size="5.5"><span style="color:#FF3C38">In a nutshell</span></font><br><br>
-  My expertise lies in retrieving, processing, and analyzing large datasets to derive valuable insights. I specialize in working with complex geospatial and environmental data and hydrologic models, particularly in the context of addressing climate risks and building resilience. 
-  <br><br>
-  <font size="5.5"><span style="color:#FF3C38">Currently</span></font>
-  <br><br>
-  I am employed as a geospatial data analyst at FM Global. In this role, I focus on natural hazards and utilize my skills in geospatial data engineering and ETL tasks to provide comprehensive and practical solutions to business challenges. By leveraging advanced techniques, I contribute to creating a safer and more resilient environment. I also serve as a post-doctoral researcher at the [University of Idaho](https://www.uidaho.edu/), where I developed cutting-edge automated reporting products and decision support tools for post-wildfire risk management.  
-  <br><br>
-  <font size="5.5"><span style="color:#FF3C38">Recently</span></font>
-  <br><br>
-  I received my PhD in Water Resources from the [University of Idaho](https://www.uidaho.edu/). As a part of [Dr. Erin Brooks'](https://www.uidaho.edu/cals/soil-and-water-systems/our-people/erin-brooks) research group, my work focused on improving the understanding of the implications of various land management strategies on water quality. By employing advanced hydrology and water resources models, along with extensive geospatial datasets, I developed data-driven tools to support environmental management-related decision-making and address climate risks. 
-  <br><br>
-  <font size="5.5"><span style="color:#FF3C38">Previously</span></font><br><br>
-  I had the privilege of being a [Utrecht Excellence Scholar](https://www.uu.nl/masters/en/general-information/international-students/financial-matters/grants-and-scholarships/utrecht-excellence-scholarships) at [Utrecht University](https://www.uu.nl/en) in the Netherlands. During this time, I worked extensively with the PCR-GLOBWB model, a state-of-the-art global hydrology and water resources model. By integrating remote sensing products and applying innovative approaches, I derived critical water management insights in regions facing severe water scarcity.
+   I lead the Water Security Thematic area at the [SERVIR](https://servirglobal.net/) Science Coordination Office. SERVIR is a joint NASA and USAID partnership that harnesses the power of satellite data and science collaboration to support locally led efforts to strengthen climate resilience. Within the [Water Security Thematic Area](https://servirglobal.net/what-we-do/water-security), we utilize Earth observation-driven services and capacity-building initiatives to help partners enhance sustainable access to freshwater and promote cooperation over shared water resources. I am particularly passionate about translating science into actionable insights to support environmental decision-making.
+   
+   I hold a PhD in Water Resources Engineering from the [University of Idaho](https://www.uidaho.edu/). As a part of [Dr. Erin Brooks']() research group, my work focused on improving the understanding of the implications of various land management strategies on water quality. By employing advanced hydrology and water resources models, along with extensive geospatial datasets, I developed data-driven tools to inform stakeholders’ strategies in addressing climate risks and guiding environmental decision-making.
+   
+   Previously, I had the privilege of being a [Utrecht Excellence Scholar](https://www.uu.nl/en/masters/general-information/application-and-admission/scholarships-and-grants/utrecht-excellence-scholarships) at [Utrecht University](https://www.uu.nl/en/) in the Netherlands. During this time, I worked extensively with the PCR-GLOBWB model, a state-of-the-art global hydrology and water resources model. By integrating earth observation data and applying innovative approaches, my work focused on deriving critical water management insights in regions facing severe water scarcity.
+  
   
 show_outro: true
 outro: |
