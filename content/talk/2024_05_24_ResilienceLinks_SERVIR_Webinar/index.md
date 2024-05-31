@@ -16,7 +16,7 @@ links:
   url: https://www.youtube.com/watch?v=HSQ47c1K3OE
 tags: []
 show_post_time: false
-subtitle: WEBINAR | Floods, Droughts, and Water Security- How is Water Data Critical to Climate Resilience?
+subtitle:
 title: WEBINAR | Floods, Droughts, and Water Security- How is Water Data Critical to Climate Resilience?
 ---
 
