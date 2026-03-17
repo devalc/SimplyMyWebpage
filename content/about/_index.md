@@ -1,6 +1,6 @@
 ---
 cascade:
-  headless: true
+  headless: false
 description: 
 show_header: true
 sidebar_left: false

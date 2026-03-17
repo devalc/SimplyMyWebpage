@@ -19,7 +19,6 @@ links:
   icon_pack: fab
   name: code
   url: https://github.com/devalc/ETPersistence
-subtitle: ""
 tags:
 - hugo-site
 title: ET-Persistance

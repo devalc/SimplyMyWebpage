@@ -32,36 +32,36 @@ Currently the package is hosted only via through Github.
 
 Install devtools by running following command in your R console: 
 
-```{r}
+```r
 install.packages("devtools")
 ```
 
 Now using devtools functionality you can install the Sorption package from Github. Execute following code in your R console:
 
-```{r}
+```r
 devtools::install_github("devalc/Sorption")
 ```
 ### Usage
 
 Once installed the package can be loaded to the system using:
-```{r}
+```r
 library(Sorption)
 ```
 This will also load test data vectors which can be accessed using:
 
-```{r}
+```r
 test_Ceq , test_Qeq 
 ```
 
 ### Example Usage: Parameters
 
 Parameters for the Freundlich isotherm can be predicted using:
-```{r}
+```r
 FreundlichParameters(test_Ceq, test_Qeq, "test.csv")
 ```
 ### Example Usage: Plots
 
 Freundlich isotherm can be plotted using:
-```{r}
+```r
 FreundlichPlot(test_Ceq, test_Qeq, 0.,0.8,0.,0.9)
 ```

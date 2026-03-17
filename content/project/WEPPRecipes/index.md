@@ -33,16 +33,16 @@ This package is available only via GitHub.
 
 First, install devtools by running following command in your R console: 
 
-```{r}
+```r
 install.packages("devtools")
 ```
 
 Now you can install the WEPPRecipes package from Github using devtools as:
 
-```{r}
+```r
 devtools::install_github("devalc/WEPPRecipes")
 ```
 Once installed the package can be loaded to the system using:
-```{r}
+```r
 library(WEPPRecipes)
 ```

@@ -1,8 +1,7 @@
 <head>
   {{ partial "meta.html" . }}
   {{ template "_internal/schema.html" . }}
-<!--   {{ template "_internal/google_analytics_async.html" . }} -->
-  {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics.html" . }} 
   {{ if .Site.Params.GoogleAnalyticsID }}
   {{ partial "analytics-gtag.html" . }}
   {{ end }}
