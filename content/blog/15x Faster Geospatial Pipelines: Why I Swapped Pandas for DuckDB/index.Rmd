@@ -23,6 +23,8 @@ output:
 
 This post walks through how I optimized a real-world FEMA geospatial pipeline using DuckDB and why it significantly outperforms Pandas for large-scale spatial joins.
 
+![Infographic: Benchmarking the 15.2x Speedup from Pandas to DuckDB. (Generated using Gemini.)](./duckdb_blog_featured.png)
+
 ---
 
 In geospatial data workflows, *waiting* often feels like part of the job.
